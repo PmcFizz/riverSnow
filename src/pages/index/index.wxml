@@ -2,7 +2,7 @@
 	<view class="app__inner">
 		<text class="app__title">寒江雪工作室</text>
 
-		<button wx:for="{{menuArr}}" class="index_btn"  plain="false"  size="default" wx:key="{{idx}}" bindtap="clickMenuBtn">
+		<button wx:for="{{menuArr}}" class="index_btn" data-link="{{item.link}}" plain="false"  size="default" wx:key="{{idx}}" bindtap="clickMenuBtn">
 			{{item.name}}
 		</button>
 

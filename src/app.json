@@ -1,9 +1,12 @@
 {
     "pages": [
         "pages/index/index",
-        "pages/joinUs/joinUs",
+        "pages/aboutUs/aboutUs",
+        "pages/business/business",
         "pages/showExample/showExample",
-        "pages/business/business"
+        "pages/yourProblem/yourProblem",
+        "pages/myService/myService",
+        "pages/contactUs/contactUs"
     ],
     "window": {
         "navigationBarTextStyle": "white",
@@ -16,17 +19,20 @@
         "selectedColor": "#fff",
         "borderStyle": "black",
         "backgroundColor": "#282828",
-        "list": [{
-            "pagePath": "pages/index/index",
-            "iconPath": "image/search.png",
-            "selectedIconPath": "image/search_A.png",
-            "text": "首页"
-        },{
-            "pagePath": "pages/showExample/showExample",
-            "iconPath": "image/consult.png",
-            "selectedIconPath": "image/consult_A.png",
-            "text": "案例"
-        }]
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "image/search.png",
+                "selectedIconPath": "image/search_A.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/showExample/showExample",
+                "iconPath": "image/consult.png",
+                "selectedIconPath": "image/consult_A.png",
+                "text": "案例"
+            }
+        ]
     },
     "networkTimeout": {
         "request": 10000,
