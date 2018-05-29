@@ -1,0 +1,38 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/joinUs/joinUs",
+        "pages/showExample/showExample",
+        "pages/business/business"
+    ],
+    "window": {
+        "navigationBarTextStyle": "white",
+        "navigationBarTitleText": "寒江雪工作室",
+        "navigationBarBackgroundColor": "#000",
+        "backgroundColor": "#000"
+    },
+    "tabBar": {
+        "color": "#b1b1b1",
+        "selectedColor": "#fff",
+        "borderStyle": "black",
+        "backgroundColor": "#282828",
+        "list": [{
+            "pagePath": "pages/index/index",
+            "iconPath": "image/search.png",
+            "selectedIconPath": "image/search_A.png",
+            "text": "首页"
+        },{
+            "pagePath": "pages/showExample/showExample",
+            "iconPath": "image/consult.png",
+            "selectedIconPath": "image/consult_A.png",
+            "text": "案例"
+        }]
+    },
+    "networkTimeout": {
+        "request": 10000,
+        "connectSocket": 10000,
+        "uploadFile": 10000,
+        "downloadFile": 10000
+    },
+    "debug": true
+}
