@@ -1,89 +1,16 @@
-//index.js
-//获取应用实例
 var app = getApp()
 Page({
 	data: {
-		userInfo: {},
-		account: '',
-		pwd: '',
-		code: '',
-		codePath: ''
+		businessArr: [
+			{name: '小程序', des: '有这样一个东西,不用下载app,不用开发ios和安卓两套代码,操作简单,开发成本小,他的名字叫小程序.快速变现,开发周期短.'},
+			{name: '微信公众号', des: '微信用户绑定,微信分享,扩大流量.提高知名度.吸粉'},
+			{name: '企业官网', des: '企业形象塑造,SEO,'},
+			{name: '电商系统', des: ''},
+			{name: '餐饮软件', des: '传统行业融入科技'},
+			{name: '个人博客,社区系统', des: '个人名片,作品展示,行业交流.扩大人脉'}]
 	},
 	onLoad: function () {
-		this.changeCode();
-		console.log('+++>登录获取图片')
-		app.getUserInfo(function (res) {
-			console.log(res)
-		})
-	},
-	nameInput: function (e) {
-		this.setData({
-			account: e.detail.value
-		})
-	},
-	phoneInput: function (e) {
-		this.setData({
-			pwd: e.detail.value
-		})
-	},
-	codeInput: function (e) {
-		this.setData({
-			code: e.detail.value
-		})
-	},
-	changeCode: function () {
-		var imsrc = app.serverHost +'/captcha.jpg?sessionId=' +  app.globalData.sessionId + '&tid' + Math.random() ;
-		this.setData({
-			codePath: imsrc
-		})
-	},
-	login: function () {
-		if (!this.data.account) {
-			wx.showToast({
-				title: '请填写用户名',
-				icon: 'none',
-				duration: 1000
-			})
-			return false
-		}
-		if (!this.data.pwd) {
-			wx.showToast({
-				title: '请填写密码',
-				icon: 'none',
-				duration: 1000
-			})
-			return false
-		}
-		if (!this.data.code) {
-			wx.showToast({
-				title: '请填写验证码',
-				icon: 'none',
-				duration: 1000
-			})
-			return false
-		}
-		// TODO 验证手机号 mobile|password|identCode
-		var sendData = {
-			mobile: this.data.account,
-			password: this.data.pwd,
-			identCode: this.data.code
-		}, _this = this
-		app.login(sendData, function (res) {
-			if (res.data.code == 200) {
-				wx.switchTab({
-					url: '../search/search',
-				})
-			} else {
-				console.log(res.data)
-				if(res.data.msg == "验证码错误") {
-					_this.changeCode();
-				}
-				wx.showToast({
-					title: res.data.msg,
-					icon: 'none',
-					duration: 3000
-			})
-			}
-		})
+
 	}
+
 })
