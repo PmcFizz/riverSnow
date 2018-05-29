@@ -1,21 +1,25 @@
 <view class="app about_us">
+	<text>原本我想了很多,冠冕堂皇的软文,宣传主页语来写这个文案.但这就显得我太庸俗了</text>
+
 	<view class="introduce">
 		<text class="introduce_title">我们是谁?</text>
-		<text class="introduce_content">我们是一群自由,进取,有责任的软件开发工程师,组成人员有前端开发,后台开发,运维,产品经理,UI设计,每个人都在互联网行业工作4年以上,拥有丰富的行业资源,有的曾就职于某上市公司,有的是公司中的技术骨干,谙熟互联网业务操作.
-		</text>
+		<text class="introduce_content">想利用自身开发技能提供一些老板需要的软件相关服务的一群追求自由的人</text>
 	</view>
 	<view class="introduce">
 		<text class="introduce_title">我们要干嘛?</text>
-		<text class="introduce_content">能力越大,责任就越大.工作已无法满足我们,我们要运用周六周日,晚上的时间开辟更广阔的天地.我们要运用我们的技术让生活,让工作变得更美好.让公司收益,让人们感受到科技带来的便利.(ps:其实就是想换个带劲笔记本电脑)</text>
+		<text class="introduce_content">做出满足你需求的软件,挣个机械键盘钱</text>
 	</view>
 	<view class="introduce">
 		<text class="introduce_title">为什么是寒江雪?</text>
-		<text class="introduce_content">江,寓意着知识的海洋,科技的浪潮.但由于人们急功近利,价值观扭曲,导致人们开始对科技抱着厌恶的态度,给整个技术的发展蒙上了一层灰尘,一层冰霜袭来.我们工作室就像这片广阔的海洋中一片雪花,坚持自我.我们就是在天寒地冻的江边,悠然垂钓的老翁
+		<text class="introduce_content">我非常喜欢'孤舟蓑笠翁,独钓寒江雪'孕育出来的语境.时刻保持一种悠然自得,享受生活的情趣.
+			我钓鱼,和天气无关,和江雪无关,和鱼无关,只和我想不想钓有关(ps:其实我不会钓鱼).目前人们在急功近利的价值观引导下对科技的滥用导致了很矛盾的局面.
 		</text>
 	</view>
 	<view class="introduce">
 		<text class="introduce_title">我们能帮你做什么?</text>
-		<text class="introduce_content">我们可以帮你管理业务,提高效率,将线下业务转移到线上,从传统行业过渡到高新企业,相信你已经感受到了科技带来的便利.我们是兼职,我们不要求多.意味着我们能以更低的价格提供优质的服务.收费流程简单,假如你想做一款小程序,请联系我们,不管是电商,还是餐饮,还是金融或者企业宣传.假如你想网站建设,请联系我们,不管是电脑端,还是手机端,或者微信端,公众号.另外我们也提供技术咨询,需求分析,需求报价等服务</text>
+		<text class="introduce_content">
+			网站建设,省钱,整理需求,开发小程序,技术咨询,软件报价.
+		</text>
 	</view>
 
 </view>
