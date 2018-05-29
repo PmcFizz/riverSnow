@@ -1,3 +1,21 @@
-<view class="app">
-关于我们
+<view class="app about_us">
+	<view class="introduce">
+		<text class="introduce_title">我们是谁?</text>
+		<text class="introduce_content">我们是一群自由,进取,有责任的软件开发工程师,组成人员有前端开发,后台开发,运维,产品经理,UI设计,每个人都在互联网行业工作4年以上,拥有丰富的行业资源,有的曾就职于某上市公司,有的是公司中的技术骨干,谙熟互联网业务操作.
+		</text>
+	</view>
+	<view class="introduce">
+		<text class="introduce_title">我们要干嘛?</text>
+		<text class="introduce_content">能力越大,责任就越大.工作已无法满足我们,我们要运用周六周日,晚上的时间开辟更广阔的天地.我们要运用我们的技术让生活,让工作变得更美好.让公司收益,让人们感受到科技带来的便利.(ps:其实就是想换个带劲笔记本电脑)</text>
+	</view>
+	<view class="introduce">
+		<text class="introduce_title">为什么是寒江雪?</text>
+		<text class="introduce_content">江,寓意着知识的海洋,科技的浪潮.但由于人们急功近利,价值观扭曲,导致人们开始对科技抱着厌恶的态度,给整个技术的发展蒙上了一层灰尘,一层冰霜袭来.我们工作室就像这片广阔的海洋中一片雪花,坚持自我.我们就是在天寒地冻的江边,悠然垂钓的老翁
+		</text>
+	</view>
+	<view class="introduce">
+		<text class="introduce_title">我们能帮你做什么?</text>
+		<text class="introduce_content">我们可以帮你管理业务,提高效率,将线下业务转移到线上,从传统行业过渡到高新企业,相信你已经感受到了科技带来的便利.我们是兼职,我们不要求多.意味着我们能以更低的价格提供优质的服务.收费流程简单,假如你想做一款小程序,请联系我们,不管是电商,还是餐饮,还是金融或者企业宣传.假如你想网站建设,请联系我们,不管是电脑端,还是手机端,或者微信端,公众号.另外我们也提供技术咨询,需求分析,需求报价等服务</text>
+	</view>
+
 </view>
