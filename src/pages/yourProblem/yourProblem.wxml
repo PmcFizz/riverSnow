@@ -1,8 +1,19 @@
-<view class="app">
-	<open-data type="userAvatarUrl" class="user-img"></open-data>
-	<open-data type="userNickName" lang="zh_CN"></open-data>
-	你的姓名
-	手机号
-	邮箱
-	你想说的
+<view class="app your_problem">
+	<open-data type="userAvatarUrl" style="margin: 0 auto;text-align: center;margin: 10px auto;" class="user-img"></open-data>
+	<open-data type="userNickName" style="text-align: center;" lang="zh_CN"></open-data>
+	<view class="section u-ta-l">
+		<label>
+			<text>姓名</text>
+			<input  maxlength="10" placeholder="请输入您的姓名" />
+		</label>
+	</view>
+	<view class="section u-ta-l">
+		<input  maxlength="10" placeholder="请输入您的手机号" />
+	</view>
+	<view class="section u-ta-l">
+		<input  maxlength="10" placeholder="请输入您的邮箱" />
+	</view>
+	<view class="section u-ta-l">
+		<input  maxlength="10" placeholder="你想说的" />
+	</view>
 </view>

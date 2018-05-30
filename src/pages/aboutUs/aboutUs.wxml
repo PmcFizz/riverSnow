@@ -1,25 +1,31 @@
 <view class="app about_us">
-	<text>原本我想了很多,冠冕堂皇的软文,宣传主页语来写这个文案.但这就显得我太庸俗了</text>
 
 	<view class="introduce">
 		<text class="introduce_title">我们是谁?</text>
-		<text class="introduce_content">想利用自身开发技能提供一些老板需要的软件相关服务的一群追求自由的人</text>
+		<view class="panel-body">
+			<text class="introduce_content">想利用自身开发技能提供一些老板需要的软件相关服务的一群追求自由的人</text>
+		</view>
+
 	</view>
 	<view class="introduce">
 		<text class="introduce_title">我们要干嘛?</text>
-		<text class="introduce_content">做出满足你需求的软件,挣个机械键盘钱</text>
+		<view class="panel-body">
+			<text class="introduce_content">做出满足你需求的软件,挣个机械键盘钱</text>
+		</view>
 	</view>
 	<view class="introduce">
 		<text class="introduce_title">为什么是寒江雪?</text>
-		<text class="introduce_content">我非常喜欢'孤舟蓑笠翁,独钓寒江雪'孕育出来的语境.时刻保持一种悠然自得,享受生活的情趣.
-			我钓鱼,和天气无关,和江雪无关,和鱼无关,只和我想不想钓有关(ps:其实我不会钓鱼).目前人们在急功近利的价值观引导下对科技的滥用导致了很矛盾的局面.
-		</text>
+		<view class="panel-body">
+			<text class="introduce_content">我非常喜欢'孤舟蓑笠翁,独钓寒江雪'孕育出来的语境.时刻保持一种悠然自得,享受生活的情趣.
+				我钓鱼,和天气无关,和江雪无关,和鱼无关,只和我想不想钓有关(ps:其实我不会钓鱼).目前人们在急功近利的价值观引导下对科技的滥用导致了很矛盾的局面.
+			</text>
+		</view>
 	</view>
 	<view class="introduce">
 		<text class="introduce_title">我们能帮你做什么?</text>
-		<text class="introduce_content">
-			网站建设,省钱,整理需求,开发小程序,技术咨询,软件报价.企业或个人网上宣传,推广,提高逼格......
-		</text>
+		<view class="panel-body">
+			<text class="introduce_content">网站建设,省钱,整理需求,开发小程序,技术咨询,软件报价.企业或个人网上宣传,推广,提高逼格......</text>
+		</view>
 	</view>
 
 </view>

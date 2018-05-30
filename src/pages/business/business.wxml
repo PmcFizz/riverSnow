@@ -1,3 +1,11 @@
-<view class="app">
-业务范围
+<view class="app business">
+
+	<view class="introduce" wx:for="{{businessArr}}">
+		<text class="introduce_title">{{item.name}}</text>
+		<view class="panel-body">
+			<text class="introduce_content">{{item.des}}</text>
+		</view>
+	</view>
+
 </view>
+

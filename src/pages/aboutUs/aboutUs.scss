@@ -2,20 +2,31 @@
 @import "../../assets/scss/support";
 
 .about_us {
+	padding: 10px;
+	text-indent: 20px;
 	.introduce {
-		padding: 10px;
+		margin-top: 30px;
 		text-align: left;
 		.introduce_title {
 			display: block;
 			font-size: 20px;
 			text-align: left;
-			font-weight: 600;
+			margin-bottom: 8px;
+		}
+		.panel-body {
+			border-bottom: 1px solid $colorLink;
+			border-top: 1px solid $colorLink;
 		}
 		.introduce_content {
 			font-size: 16px;
 			text-align: left;
-			font-weight: 600;
-			text-indent: 5px;
 		}
 	}
 }
+
+$colorBlue: #20A0FF;
+$colorGreen: #13CE66;
+$colorGray: #475669;
+$colorBlack: #000;
+$colorRed: #f00;
+$colorYellow: #F7BA2A;
