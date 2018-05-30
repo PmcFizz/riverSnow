@@ -22,15 +22,17 @@
         "list": [
             {
                 "pagePath": "pages/index/index",
-                "iconPath": "image/search.png",
-                "selectedIconPath": "image/search_A.png",
-                "text": "首页"
+                "iconPath": "image/home_1.png",
+                "selectedIconPath": "image/home_1.png",
+                "text": "首页",
+                "selectedColor": "#f89e07"
             },
             {
                 "pagePath": "pages/showExample/showExample",
-                "iconPath": "image/consult.png",
-                "selectedIconPath": "image/consult_A.png",
-                "text": "案例"
+                "iconPath": "image/example_2.png",
+                "selectedIconPath": "image/example_2.png",
+                "text": "案例",
+                "selectedColor": "#f89e07"
             }
         ]
     },

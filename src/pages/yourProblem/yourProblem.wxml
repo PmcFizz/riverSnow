@@ -1,4 +1,6 @@
 <view class="app">
+	<open-data type="userAvatarUrl" class="user-img"></open-data>
+	<open-data type="userNickName" lang="zh_CN"></open-data>
 	你的姓名
 	手机号
 	邮箱

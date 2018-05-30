@@ -3,86 +3,90 @@
 var app = getApp()
 Page({
 	data: {
-		userInfo: {},
-		account: '',
-		pwd: '',
-		code: '',
-		codePath: ''
+		userInfo: {
+			nickName: '',
+			headerImg: '',
+			name: '',
+			phoneNo: '',
+			email: '',
+			problemContent: ''
+		}
 	},
 	onLoad: function () {
-		this.changeCode();
-		console.log('+++>登录获取图片')
-		app.getUserInfo(function (res) {
-			console.log(res)
-		})
+
 	},
 	nameInput: function (e) {
+		var userInfoName = 'userInfo.name'
 		this.setData({
-			account: e.detail.value
+			[userInfoName]: e.detail.value
 		})
 	},
-	phoneInput: function (e) {
+	phoneNoInput: function (e) {
+		var userInfoPhoneNo = 'userInfo.phoneNo'
 		this.setData({
-			pwd: e.detail.value
+			[userInfoPhoneNo]: e.detail.value
 		})
 	},
-	codeInput: function (e) {
+	emailInput: function (e) {
+		var userInfoEmail = 'userInfo.email'
 		this.setData({
-			code: e.detail.value
+			[userInfoEmail]: e.detail.value
 		})
 	},
-	changeCode: function () {
-		var imsrc = app.serverHost +'/captcha.jpg?sessionId=' +  app.globalData.sessionId + '&tid' + Math.random() ;
+	problemContentInput: function (e) {
+		var userInfoProblemContent = 'userInfo.problemContent'
 		this.setData({
-			codePath: imsrc
+			[userInfoProblemContent]: e.detail.value
 		})
 	},
-	login: function () {
-		if (!this.data.account) {
+	saveData: function () {
+		if (!this.data.userInfo.name) {
 			wx.showToast({
-				title: '请填写用户名',
+				title: '请填写姓名',
 				icon: 'none',
 				duration: 1000
 			})
 			return false
 		}
-		if (!this.data.pwd) {
+		if (!this.data.userInfo.phoneNo) {
 			wx.showToast({
-				title: '请填写密码',
+				title: '请填写手机号',
 				icon: 'none',
 				duration: 1000
 			})
 			return false
 		}
-		if (!this.data.code) {
+
+		if (!this.data.userInfo.problemContent) {
 			wx.showToast({
-				title: '请填写验证码',
+				title: '请填写问题内容',
 				icon: 'none',
 				duration: 1000
 			})
 			return false
 		}
-		// TODO 验证手机号 mobile|password|identCode
+
 		var sendData = {
-			mobile: this.data.account,
-			password: this.data.pwd,
-			identCode: this.data.code
-		}, _this = this
-		app.login(sendData, function (res) {
+			nickName: this.data.userInfo.nickName,
+			headerImg: this.data.userInfo.headerImg,
+			name: this.data.userInfo.name,
+			phoneNo: this.data.userInfo.phoneNo,
+			email: this.data.userInfo.email,
+			problemContent: this.data.userInfo.problemContent
+		}
+		app.saveCustomerProblem(sendData, function (res) {
 			if (res.data.code == 200) {
-				wx.switchTab({
-					url: '../search/search',
+				wx.showToast({
+					title: '发送成功!',
+					icon: 'success',
+					duration: 2000
 				})
 			} else {
-				console.log(res.data)
-				if(res.data.msg == "验证码错误") {
-					_this.changeCode();
-				}
 				wx.showToast({
 					title: res.data.msg,
 					icon: 'none',
-					duration: 3000
-			})
+					duration: 2000
+				})
 			}
 		})
 	}
