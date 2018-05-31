@@ -1,6 +1,3 @@
-<view class="app">
-优秀案例
-	使用gif展示或二维码试用展示
-	截取项目代码
-
+<view class="app showExample">
+	<image wx:for="{{exampleArr}}" class="exampleImg"  wx:key="{{idx}}" src="{{item.imgLink}}"></image>
 </view>

@@ -1,5 +1,4 @@
 //app.js
-
 App({
 	serverHost: 'https://www.iwin8.cc', // 服务器Host
 	onLaunch: function () { },
