@@ -1,3 +1,9 @@
 <view class="app showExample">
-	<image wx:for="{{exampleArr}}" class="exampleImg"  wx:key="{{idx}}" src="{{item.imgLink}}"></image>
+	<image class="exampleImg" src="../../image/example1.jpg" style="height: 200px;width: 200px"></image>
+	<image class="exampleImg" src="../../image/example2.jpg" style="height: 200px;width: 200px"></image>
+	<image class="exampleImg" src="../../image/example4.png" style="height: 580px;width: 320px"></image>
+	<image class="exampleImg" src="../../image/example5.png" style="height: 580px;width: 320px"></image>
+	<image class="exampleImg" src="../../image/example6.png" style="height: 580px;width: 320px"></image>
+	<image class="exampleImg" src="../../image/example7.jpg" style="height: 580px;width: 320px"></image>
+	<image class="exampleImg" src="../../image/example7.gif" style="height: 580px;width: 320px"></image>
 </view>
