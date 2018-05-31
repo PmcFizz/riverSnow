@@ -1,11 +1,6 @@
 <view class="app business">
-
-	<view class="introduce" wx:for="{{businessArr}}">
-		<text class="introduce_title">{{item.name}}</text>
-		<view class="panel-body">
-			<text class="introduce_content">{{item.des}}</text>
-		</view>
-	</view>
-
+	<button wx:for="{{businessArr}}" class="index_btn" plain="false" size="default" wx:key="{{idx}}">
+		{{item.name}}
+	</button>
 </view>
 

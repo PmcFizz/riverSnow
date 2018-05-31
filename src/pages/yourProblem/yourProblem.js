@@ -39,7 +39,7 @@ Page({
 			[userInfoProblemContent]: e.detail.value
 		})
 	},
-	saveData: function () {
+	clickSubmitData: function () {
 		if (!this.data.userInfo.name) {
 			wx.showToast({
 				title: '请填写姓名',

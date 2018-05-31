@@ -2,24 +2,14 @@
 @import "../../assets/scss/support";
 
 .business {
-	padding: 10px;
-	text-indent: 20px;
-	.introduce {
-		margin-top: 30px;
-		text-align: left;
-		.introduce_title {
-			display: block;
-			font-size: 20px;
-			text-align: left;
-			margin-bottom: 8px;
-		}
-		.panel-body {
-			border-bottom: 1px solid $colorLink;
-			border-top: 1px solid $colorLink;
-		}
-		.introduce_content {
-			font-size: 16px;
-			text-align: left;
-		}
+	.index_btn {
+		display: block;
+		margin-top: 20px;
+		border: 1px solid $colorLink;
+		color: $color;
+		width: 50%;
+	}
+	.index_btn_hover {
+		width: 50%;
 	}
 }
