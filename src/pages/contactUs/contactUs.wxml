@@ -3,6 +3,7 @@
 		<image class="info_img" src="../../image/new_wechat.png"></image>
 		<text>扫描二维码加客服微信</text>
 	</view>
+	<text style="display: block">庞先生</text>
 	<text style="display: block">微信：demon_0212</text>
 	<text style="display: block">QQ：1046048974</text>
 	<text style="display: block">邮箱：mengchen_0212@foxmail.com</text>
