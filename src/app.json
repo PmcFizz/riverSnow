@@ -1,16 +1,18 @@
 {
     "pages": [
         "pages/index/index",
-        "pages/aboutUs/aboutUs",
-        "pages/business/business",
-        "pages/showExample/showExample",
-        "pages/yourProblem/yourProblem",
-        "pages/myService/myService",
-        "pages/contactUs/contactUs"
+        "pages/address/address",
+        "pages/phone/phone",
+        "pages/company-news/company-news",
+        "pages/new-detail/new-detail",
+        "pages/example/example",
+        "pages/example-detail/example-detail",
+        "pages/contact-us/contact-us",
+        "pages/about-us/about-us"
     ],
     "window": {
         "navigationBarTextStyle": "white",
-        "navigationBarTitleText": "寒江雪工作室",
+        "navigationBarTitleText": "创客宝",
         "navigationBarBackgroundColor": "#000",
         "backgroundColor": "#000"
     },
@@ -22,16 +24,23 @@
         "list": [
             {
                 "pagePath": "pages/index/index",
-                "iconPath": "image/home_1.png",
-                "selectedIconPath": "image/home_1.png",
+                "iconPath": "image/ckb/home.png",
+                "selectedIconPath": "image/ckb/home_sel.png",
                 "text": "首页",
                 "selectedColor": "#f89e07"
             },
             {
-                "pagePath": "pages/showExample/showExample",
-                "iconPath": "image/example_2.png",
-                "selectedIconPath": "image/example_2.png",
-                "text": "案例",
+                "pagePath": "pages/address/address",
+                "iconPath": "image/ckb/address.png",
+                "selectedIconPath": "image/ckb/address_sel.png",
+                "text": "地址",
+                "selectedColor": "#f89e07"
+            },
+            {
+                "pagePath": "pages/phone/phone",
+                "iconPath": "image/ckb/phone.png",
+                "selectedIconPath": "image/ckb/phone_sel.png",
+                "text": "电话",
                 "selectedColor": "#f89e07"
             }
         ]

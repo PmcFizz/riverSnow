@@ -13,4 +13,38 @@
 	.index_btn_hover {
 		width: 50%;
 	}
+	.swiper-container {
+		position: relative;
+	}
+	.swiper_box {
+		height: 200px;
+		white-space: nowrap;
+		width: 100%;
+		image {
+			width: 100%;
+			display: block;
+		}
+	}
+	.swiper-container .dots {
+		position: absolute;
+		left: 0;
+		right: 0;
+		bottom: 20px;
+		display: flex;
+		justify-content: center;
+	}
+	.swiper-container .dots .dot {
+		margin: 0 8px;
+		width: 14px;
+		height: 14px;
+		background: #fff;
+		border-radius: 50%;
+		transition: all .6s;
+		opacity: .5;
+	}
+	.swiper-container .dots .dot.active {
+		width: 14px;
+		opacity: 1;
+	}
+
 }

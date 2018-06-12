@@ -1,8 +1,24 @@
 <view class="app index">
 	<view class="app__inner">
-		<text class="app__title">寒江雪工作室</text>
 
-		<button wx:for="{{menuArr}}" class="index_btn" data-link="{{item.link}}" plain="false"  size="default" wx:key="{{idx}}" bindtap="clickMenuBtn">
+		<view class="swiper-container">
+			<swiper class="swiper_box"
+					autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" bindchange="swiperchange">
+				<block wx:for="{{banners}}" wx:key="id">
+					<swiper-item>
+						<image bindtap="tapBanner" data-id="{{item.businessId}}" src="{{item.picUrl}}" class="slide-image" width="750rpx" height="562.5rpx"/>
+					</swiper-item>
+				</block>
+			</swiper>
+			<view class="dots">
+				<block wx:for="{{banners}}" wx:key="unique">
+					<view class="dot{{index == swiperCurrent ? ' active' : ''}}"></view>
+				</block>
+			</view>
+		</view>
+
+		<button wx:for="{{menuArr}}" class="index_btn" data-link="{{item.link}}" plain="false" size="default"
+				wx:key="{{idx}}" bindtap="clickMenuBtn">
 			{{item.name}}
 		</button>
 

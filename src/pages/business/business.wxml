@@ -1,6 +1,0 @@
-<view class="app business">
-	<button wx:for="{{businessArr}}" class="index_btn" plain="false" size="default" wx:key="{{idx}}">
-		{{item.name}}
-	</button>
-</view>
-

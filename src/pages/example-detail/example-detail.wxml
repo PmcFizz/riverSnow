@@ -1,0 +1,10 @@
+<view class="app index">
+	<view class="app__inner">
+		<text class="app__title">创客宝</text>
+
+		<button wx:for="{{menuArr}}" class="index_btn" data-link="{{item.link}}" plain="false"  size="default" wx:key="{{idx}}" bindtap="clickMenuBtn">
+			{{item.name}}
+		</button>
+
+	</view>
+</view>
