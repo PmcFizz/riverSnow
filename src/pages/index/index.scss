@@ -35,15 +35,15 @@
 	}
 	.swiper-container .dots .dot {
 		margin: 0 8px;
-		width: 14px;
-		height: 14px;
+		width: 7px;
+		height: 7px;
 		background: #fff;
 		border-radius: 50%;
 		transition: all .6s;
 		opacity: .5;
 	}
 	.swiper-container .dots .dot.active {
-		width: 14px;
+		width: 7px;
 		opacity: 1;
 	}
 
