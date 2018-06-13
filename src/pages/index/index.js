@@ -17,7 +17,9 @@ Page({
 		banners: [
 			{picUrl: '../../image/ckb/banner1.jpg', businessId: '1'},
 			{picUrl: '../../image/ckb/banner2.jpg', businessId: '2'},
-			{picUrl: '../../image/ckb/banner3.jpg', businessId: '3'}]
+			{picUrl: '../../image/ckb/banner3.jpg', businessId: '3'}],
+		newsArr: [{}, {}, {}, {}, {}],
+		picArr: ['../../image/ckb/banner1.jpg', '../../image/ckb/banner2.jpg', '../../image/ckb/banner3.jpg']
 
 	},
 	onLoad: function () { },
