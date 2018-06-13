@@ -6,7 +6,8 @@
 					autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" bindchange="swiperchange">
 				<block wx:for="{{banners}}" wx:key="id">
 					<swiper-item>
-						<image bindtap="tapBanner" data-id="{{item.businessId}}" src="{{item.picUrl}}" class="slide-image" width="750rpx" height="562.5rpx"/>
+						<image bindtap="tapBanner" data-id="{{item.businessId}}" src="{{item.picUrl}}"
+							   class="slide-image" width="750rpx" height="562.5rpx"/>
 					</swiper-item>
 				</block>
 			</swiper>
@@ -14,6 +15,25 @@
 				<block wx:for="{{banners}}" wx:key="unique">
 					<view class="dot{{index == swiperCurrent ? ' active' : ''}}"></view>
 				</block>
+			</view>
+		</view>
+
+		<view class="menu-ul">
+			<view class="menu-item">
+				<image src="../../image/ckb/gsdt.png"></image>
+				<text>公司动态</text>
+			</view>
+			<view class="menu-item">
+				<image src="../../image/ckb/cgal.png"></image>
+				<text>成功案例</text>
+			</view>
+			<view class="menu-item">
+				<image src="../../image/ckb/lxwm.png"></image>
+				<text>联系我们</text>
+			</view>
+			<view class="menu-item">
+				<image src="../../image/ckb/gywm.png"></image>
+				<text>关于我们</text>
 			</view>
 		</view>
 

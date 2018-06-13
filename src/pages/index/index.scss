@@ -46,5 +46,29 @@
 		width: 7px;
 		opacity: 1;
 	}
+	.menu-ul {
+		height: 97px;
+		border-bottom: 2px solid #ddd;
+		width: 100%;
+		.menu-item {
+			float: left;
+			width: 25%;
+			height: 100%;
+			text-align: center;
+			margin: 0 auto;
+			padding-top: 12px;
+			image {
+				height: 42px;
+				width: 42px;
+				display: inline-block;
+				margin: 0 auto;
+			}
+			text {
+				font-size: 14px;
+				display: inline-block;
+				margin: 0 auto;
+			}
+		}
+	}
 
 }
