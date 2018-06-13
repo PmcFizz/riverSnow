@@ -13,7 +13,6 @@ Page({
 
 	},
 	clickMenuBtn: function (e) {
-		console.log(e.currentTarget.dataset.link)
 		wx.navigateTo({
 			url: e.currentTarget.dataset.link,
 		})

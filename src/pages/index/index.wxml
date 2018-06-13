@@ -13,6 +13,7 @@
 			</swiper>
 			<view class="dots">
 				<block wx:for="{{banners}}" wx:key="unique">
+
 					<view class="dot{{index == swiperCurrent ? ' active' : ''}}"></view>
 				</block>
 			</view>
@@ -20,20 +21,28 @@
 
 		<view class="menu-ul">
 			<view class="menu-item">
-				<image src="../../image/ckb/gsdt.png"></image>
-				<text>公司动态</text>
+				<navigator url="/pages/company-news/company-news" hover-class="navigator-hover">
+					<image src="../../image/ckb/gsdt.png"></image>
+					<text>公司动态</text>
+				</navigator>
 			</view>
 			<view class="menu-item">
-				<image src="../../image/ckb/cgal.png"></image>
-				<text>成功案例</text>
+				<navigator url="/pages/example/example" hover-class="navigator-hover">
+					<image src="../../image/ckb/cgal.png"></image>
+					<text>成功案例</text>
+				</navigator>
 			</view>
 			<view class="menu-item">
-				<image src="../../image/ckb/lxwm.png"></image>
-				<text>联系我们</text>
+				<navigator url="/pages/contact-us/contact-u" hover-class="navigator-hover">
+					<image src="../../image/ckb/lxwm.png"></image>
+					<text>联系我们</text>
+				</navigator>
 			</view>
 			<view class="menu-item">
-				<image src="../../image/ckb/gywm.png"></image>
-				<text>关于我们</text>
+				<navigator url="/pages/about-us/about-us" hover-class="navigator-hover">
+					<image src="../../image/ckb/gywm.png"></image>
+					<text>关于我们</text>
+				</navigator>
 			</view>
 		</view>
 		<text class="panel-title">视频介绍</text>
@@ -43,23 +52,18 @@
 			   danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
 		<text class="panel-title gsdt">公司动态</text>
 
-		<ul class="news-ul">
-			<li wx:for="{{newsArr}}" wx:key="index">
-				<view class="news_wrap">
-					<image class="news_img" src="../../image/ckb/banner1.jpg"></image>
-					<text class="news_title">腾讯科技新书预售:"掘金"互联网+时代</text>
-				</view>
-			</li>
-		</ul>
+
+		<view class="news-box" wx:for="{{newsArr}}" wx:key="index">
+			<image class="news_img" src="../../image/ckb/banner1.jpg"></image>
+			<view class="news_wrap">
+				<text class="news_title">腾讯科技新书预售:"掘金"互联网+时代</text>
+			</view>
+		</view>
+
 		<text class="panel-title gsdt">图片介绍</text>
-		<scroll-view class="scroll-view_H" scroll-x="true"  style="width: 100%">
+		<scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
 			<image wx:for="{{picArr}}" wx:key="index" class="scroll-view-item_H demo-text-1" src="{{item}}"></image>
 		</scroll-view>
-
-		<!--<button wx:for="{{menuArr}}" class="index_btn" data-link="{{item.link}}" plain="false" size="default"-->
-				<!--wx:key="{{idx}}" bindtap="clickMenuBtn">-->
-			<!--{{item.name}}-->
-		<!--</button>-->
 
 	</view>
 </view>

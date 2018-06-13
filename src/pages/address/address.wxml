@@ -1,10 +1,28 @@
-<view class="app index">
+<view class="app addrss">
 	<view class="app__inner">
-		<text class="app__title">创客宝</text>
-
-		<button wx:for="{{menuArr}}" class="index_btn" data-link="{{item.link}}" plain="false"  size="default" wx:key="{{idx}}" bindtap="clickMenuBtn">
-			{{item.name}}
-		</button>
-
+		<image src="../../image/ckb/banner1.jpg" class="company_img"></image>
+		<view class="company_info">
+			<view class="row">
+				<text class="label">公司名称:</text>
+				<text class="detail">广东科技有限公司</text>
+			</view>
+			<view class="row">
+				<text class="label">商圈位置:</text>
+				<text class="detail">广东科技有限公司</text>
+			</view>
+			<view class="row">
+				<text class="label">详细地址:</text>
+				<text class="detail">广东科技有限公司</text>
+			</view>
+			<view class="row">
+				<text class="label">附近地铁:</text>
+				<text class="detail">广东科技有限公司</text>
+			</view>
+			<view class="row" style="margin-bottom:10px;">
+				<text class="label">附近公交:</text>
+				<text class="detail">广东科技有限公司</text>
+			</view>
+			<button type="primary" size="primary" style="margin-top: 10px">查看地图位置</button>
+		</view>
 	</view>
 </view>

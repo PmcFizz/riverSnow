@@ -1,16 +1,32 @@
 // 支持文件
 @import "../../assets/scss/support";
-@import "../../assets/scss/support";
 
-.index {
-	.index_btn {
-		display: block;
-		margin-top: 20px;
-		border: 1px solid $colorLink;
-		color: $color;
-		width: 50%;
+.addrss {
+	.company_img {
+		width: 100%;
+		height: 200px;
 	}
-	.index_btn_hover {
-		width: 50%;
+	.company_info {
+		padding: 5px;
 	}
+	.row {
+		width: 100%;
+		border-bottom: 2px solid #ddd;
+		float: left;
+		.label {
+			display: block;
+			width: 25%;
+			padding: 10px 0;
+			text-align: left;
+			float: left;
+		}
+		.detail {
+			float: left;
+			display: block;
+			width: 70%;
+			padding: 10px 0;
+			text-align: center;
+		}
+	}
+
 }

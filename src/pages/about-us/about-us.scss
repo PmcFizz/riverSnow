@@ -3,24 +3,17 @@
 
 .about_us {
 	padding: 10px;
-	text-indent: 20px;
-	.introduce {
-		margin-top: 15px;
-		text-align: left;
-		.introduce_title {
-			display: block;
-			font-size: 20px;
-			text-align: left;
-			margin-bottom: 8px;
-		}
-		.panel-body {
-			border-bottom: 1px solid $colorLink;
-			border-top: 1px solid $colorLink;
-		}
-		.introduce_content {
-			font-size: 16px;
-			text-align: left;
-		}
+	text-indent: 10px;
+	.gywm {
+		display: block;
+		padding: 10px;
+		font-size: 20px;
+		border-bottom: 2px solid #ddd;
 	}
+	.zw {
+		margin-top: 10px;
+		display: block;
+	}
+
 }
 

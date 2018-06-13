@@ -1,9 +1,9 @@
-<view class="app showExample">
-	<image class="exampleImg" src="../../image/example1.jpg" style="height: 200px;width: 200px"></image>
-	<image class="exampleImg" src="../../image/example2.jpg" style="height: 200px;width: 200px"></image>
-	<image class="exampleImg" src="../../image/example4.png" style="height: 580px;width: 320px"></image>
-	<image class="exampleImg" src="../../image/example5.png" style="height: 580px;width: 320px"></image>
-	<image class="exampleImg" src="../../image/example6.png" style="height: 580px;width: 320px"></image>
-	<image class="exampleImg" src="../../image/example7.jpg" style="height: 580px;width: 320px"></image>
-	<image class="exampleImg" src="../../image/example7.gif" style="height: 580px;width: 320px"></image>
+<view class="company-news">
+	<text class="gsdt">成功案例</text>
+	<view class="news-box" wx:for="{{newsArr}}" wx:key="index">
+		<image class="news_img" src="../../image/ckb/banner1.jpg"></image>
+		<view class="news_wrap">
+			<text class="news_title">腾讯科技新书预售:"掘金"互联网+时代</text>
+		</view>
+	</view>
 </view>
