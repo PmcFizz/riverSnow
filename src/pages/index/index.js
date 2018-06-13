@@ -20,14 +20,11 @@ Page({
 			{picUrl: '../../image/ckb/banner3.jpg', businessId: '3'}]
 
 	},
-	onLoad: function () {
-
-	},
+	onLoad: function () { },
 	swiperchange: function (e) {
 		this.setData({swiperCurrent: e.detail.current})
 	},
 	clickMenuBtn: function (e) {
-		console.log(e.currentTarget.dataset.link)
 		wx.navigateTo({
 			url: e.currentTarget.dataset.link,
 		})

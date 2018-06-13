@@ -1,16 +1,21 @@
 // 支持文件
 @import "../../assets/scss/support";
-@import "../../assets/scss/support";
 
-.index {
-	.index_btn {
-		display: block;
-		margin-top: 20px;
-		border: 1px solid $colorLink;
-		color: $color;
-		width: 50%;
-	}
-	.index_btn_hover {
-		width: 50%;
+.news {
+	padding: 10px 5px 20px;
+	.news__inner {
+		.news__title {
+			font-size: 24px;
+			text-align: left;
+			float: left;
+			border-bottom: 1px solid #ddd;
+			padding-bottom: 10px;
+			margin-bottom: 10px;
+		}
+		.news__detail {
+			font-size: 18px;
+			text-align: left;
+			float: left;
+		}
 	}
 }
