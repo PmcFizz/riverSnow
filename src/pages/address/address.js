@@ -9,13 +9,9 @@ Page({
 			{name: '联系我们', link: '/pages/contactUs/contactUs'}
 		]
 	},
-	onLoad: function () {
-
-	},
-	clickMenuBtn: function (e) {
-		wx.navigateTo({
-			url: e.currentTarget.dataset.link,
-		})
+	onLoad: function () {},
+	goMap: function () {
+		wx.navigateTo({url: '/pages/map/map'})
 	}
 
 })

@@ -32,7 +32,7 @@
 				</navigator>
 			</view>
 			<view class="menu-item">
-				<navigator url="/pages/contact-us/contact-u" hover-class="navigator-hover">
+				<navigator url="/pages/contact-us/contact-us" hover-class="navigator-hover">
 					<image src="../../image/ckb/lxwm.png"></image>
 					<text>联系我们</text>
 				</navigator>

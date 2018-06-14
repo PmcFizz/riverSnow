@@ -8,7 +8,8 @@
         "pages/example/example",
         "pages/example-detail/example-detail",
         "pages/contact-us/contact-us",
-        "pages/about-us/about-us"
+        "pages/about-us/about-us",
+        "pages/map/map"
     ],
     "window": {
         "navigationBarTextStyle": "white",

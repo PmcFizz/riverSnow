@@ -1,28 +1,28 @@
 <view class="app addrss">
 	<view class="app__inner">
-		<image src="../../image/ckb/banner1.jpg" class="company_img"></image>
+		<image src="../../image/ckb/2.png" class="company_img"></image>
 		<view class="company_info">
 			<view class="row">
 				<text class="label">公司名称:</text>
-				<text class="detail">广东科技有限公司</text>
+				<text class="detail">深圳市创客宝科技有限公司</text>
 			</view>
 			<view class="row">
 				<text class="label">商圈位置:</text>
-				<text class="detail">广东科技有限公司</text>
+				<text class="detail">智汇创新中心</text>
 			</view>
 			<view class="row">
 				<text class="label">详细地址:</text>
-				<text class="detail">广东科技有限公司</text>
+				<text class="detail">深圳宝安智汇创新中心D栋3A02</text>
 			</view>
 			<view class="row">
 				<text class="label">附近地铁:</text>
-				<text class="detail">广东科技有限公司</text>
+				<text class="detail">灵芝,坪洲</text>
 			</view>
 			<view class="row" style="margin-bottom:10px;">
 				<text class="label">附近公交:</text>
-				<text class="detail">广东科技有限公司</text>
+				<text class="detail">西乡交管所,宝安桃源居</text>
 			</view>
-			<button type="primary" size="primary" style="margin-top: 10px">查看地图位置</button>
+			<button type="primary" bindtap="goMap" size="primary" style="margin-top: 10px">查看地图位置</button>
 		</view>
 	</view>
 </view>

@@ -1,22 +1,13 @@
 var app = getApp()
 Page({
 	data: {
-		menuArr: [
-			{name: '关于我们', link: '/pages/aboutUs/aboutUs'},
-			{name: '业务范围', link: '/pages/business/business'},
-			{name: '您的问题', link: '/pages/yourProblem/yourProblem'},
-			{name: '真诚服务', link: '/pages/myService/myService'},
-			{name: '联系我们', link: '/pages/contactUs/contactUs'}
-		]
+		companyName: '深圳市创客宝科技有限公司',
+		userName: '苏国栋',
+		phone: '13926578824'
 	},
-	onLoad: function () {
-
-	},
-	clickMenuBtn: function (e) {
-		console.log(e.currentTarget.dataset.link)
-		wx.navigateTo({
-			url: e.currentTarget.dataset.link,
-		})
+	onLoad: function () {},
+	call: function () {
+		wx.makePhoneCall({phoneNumber: this.data.phone})
 	}
 
 })
