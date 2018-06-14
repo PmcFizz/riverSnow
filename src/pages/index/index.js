@@ -15,9 +15,11 @@ Page({
 		swiperCurrent: 0,
 		selectCurrent: 0,
 		banners: [
-			{picUrl: '../../image/ckb/banner1.jpg', businessId: '1'},
-			{picUrl: '../../image/ckb/banner2.jpg', businessId: '2'},
-			{picUrl: '../../image/ckb/banner3.jpg', businessId: '3'}],
+			{picUrl: '../../image/ckb/2.png', businessId: '1'},
+			{picUrl: '../../image/ckb/3.png', businessId: '2'},
+			{picUrl: '../../image/ckb/5.png', businessId: '3'},
+			{picUrl: '../../image/ckb/6.png', businessId: '3'},
+			{picUrl: '../../image/ckb/7.png', businessId: '3'}],
 		newsArr: [{}, {}, {}, {}, {}],
 		picArr: ['../../image/ckb/banner1.jpg', '../../image/ckb/banner2.jpg', '../../image/ckb/banner3.jpg']
 
