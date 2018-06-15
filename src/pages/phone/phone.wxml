@@ -1,6 +1,6 @@
 <view class="app phone">
 	<view class="app__inner">
-		<image src="http://i4.bvimg.com/649796/a3e3c98e90626845.png" class="company_img"></image>
+		<image src="http://i1.bvimg.com/649796/f8fe8d1a8b9b1ae4.jpg" class="company_img"></image>
 		<view class="company_info">
 			<view class="row">
 				<text class="label">公司名称:</text>
