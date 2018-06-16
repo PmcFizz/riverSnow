@@ -14,6 +14,10 @@
 				<text class="label">联系电话:</text>
 				<text class="detail">{{phone}}</text>
 			</view>
+			<view class="row" style="margin-bottom: 10px">
+				<text class="label">邮箱:</text>
+				<text class="detail">{{email}}</text>
+			</view>
 			<button type="primary" bindtap="call" size="primary">拨打电话</button>
 		</view>
 	</view>
