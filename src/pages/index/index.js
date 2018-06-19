@@ -1,14 +1,6 @@
 var app = getApp()
 Page({
 	data: {
-		menuArr: [
-			{name: '公司动态', link: '/pages/company-news/company-news'},
-			{name: '新闻详情', link: '/pages/new-detail/new-detail'},
-			{name: '成功案例', link: '/pages/example/example'},
-			{name: '案例详情', link: '/pages/example-detail/example-detail'},
-			{name: '联系我们', link: '/pages/contact-us/contact-us'},
-			{name: '关于我们', link: '/pages/about-us/about-us'}
-		],
 		autoplay: true,
 		interval: 3000,
 		duration: 1000,
@@ -24,7 +16,7 @@ Page({
 			{title: '创客宝云铺商城新增蜂鸟订单专属平台红包', logo: 'http://i2.bvimg.com/649796/529498f8ac94a9ea.png', id: '1'},
 			{title: '实体商家免费加入创客宝,轻松实现月入过万', logo: 'http://i2.bvimg.com/649796/a89c1236a325059d.png', id: '4'},
 			{title: '创客宝回馈客户,随机立减百元大奖等你拿', logo: 'http://i2.bvimg.com/649796/c9e44468856d94b3.png', id: '5'},
-			{title: '祝所有女神节日快乐', logo: 'http://i2.bvimg.com/649796/6f027d1cb7f45548.png', id: '2'},],
+			{title: '祝所有女神节日快乐', logo: 'http://i2.bvimg.com/649796/6f027d1cb7f45548.png', id: '2'}],
 		picArr: [
 			'http://i4.bvimg.com/649796/a3e3c98e90626845.png',
 			'http://i2.bvimg.com/649796/68f24db09270379b.jpg',
@@ -33,14 +25,22 @@ Page({
 			'http://i2.bvimg.com/649796/12911053e53753b0.jpg']
 
 	},
-	onLoad: function () { },
+	onLoad: function () {
+		// this.getBanner()
+	},
 	swiperchange: function (e) {
 		this.setData({swiperCurrent: e.detail.current})
 	},
-	clickMenuBtn: function (e) {
-		wx.navigateTo({
-			url: e.currentTarget.dataset.link
+	getBanner: function () {
+		var _self = this
+		app.getBanner({}, function (res) {
+			if (res.code === 0) {
+				_self.setData({banners: res.data})
+			}
 		})
+	},
+	clickMenuBtn: function (e) {
+		wx.navigateTo({url: e.currentTarget.dataset.link})
 	},
 	goHref: function (even) {
 		wx.navigateTo({url: '/pages/new-detail/new-detail?id=' + even.currentTarget.dataset.id})
