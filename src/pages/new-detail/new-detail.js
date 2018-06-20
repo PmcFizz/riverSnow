@@ -1,7 +1,7 @@
 var app = getApp()
 Page({
 	data: {
-		newsImg: '',
+		newsImg: [],
 		title: ''
 	},
 	onLoad: function (params) {
