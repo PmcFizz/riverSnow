@@ -8,6 +8,16 @@ App({
 		newsList: [
 			// 新闻
 			{
+				logo: 'http://mczaiyun.top/ckb/21.jpg',
+				title: '创客宝扫码支付介绍',
+				id: '6',
+				detailImgArr: ['http://mczaiyun.top/ckb/22.jpg',
+					'http://mczaiyun.top/ckb/23.jpg',
+					'http://mczaiyun.top/ckb/24.jpg',
+					'http://mczaiyun.top/ckb/25.jpg',
+					'http://mczaiyun.top/ckb/26.jpg']
+			},
+			{
 				title: '创客宝入驻商家突飞猛进',
 				logo: 'http://mczaiyun.top/ckb/1.jpg',
 				id: '3',
@@ -41,6 +51,16 @@ App({
 		// 案例
 		exampleList: [
 			{
+				logo: 'http://mczaiyun.top/ckb/21.jpg',
+				title: '创客宝扫码支付介绍',
+				id: 106,
+				detailImgArr: ['http://mczaiyun.top/ckb/22.jpg',
+					'http://mczaiyun.top/ckb/23.jpg',
+					'http://mczaiyun.top/ckb/24.jpg',
+					'http://mczaiyun.top/ckb/25.jpg',
+					'http://mczaiyun.top/ckb/26.jpg']
+			},
+			{
 				logo: 'http://mczaiyun.top/ckb/11.jpg',
 				title: '支付收益一多码付',
 				id: 101,
@@ -69,16 +89,6 @@ App({
 				title: '创客宝多码付全线启动',
 				id: 105,
 				detailImgArr: ['http://mczaiyun.top/ckb/20.jpg']
-			},
-			{
-				logo: 'http://mczaiyun.top/ckb/21.jpg',
-				title: '创客宝扫码支付介绍',
-				id: 106,
-				detailImgArr: ['http://mczaiyun.top/ckb/22.jpg',
-					'http://mczaiyun.top/ckb/23.jpg',
-					'http://mczaiyun.top/ckb/24.jpg',
-					'http://mczaiyun.top/ckb/25.jpg',
-					'http://mczaiyun.top/ckb/26.jpg']
 			}]
 	},
 	// 根据新闻和案例id获取详情
