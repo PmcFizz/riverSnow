@@ -7,11 +7,11 @@ Page({
 		swiperCurrent: 0,
 		selectCurrent: 0,
 		banners: [
-			{picUrl: 'http://i4.bvimg.com/649796/a3e3c98e90626845.png', businessId: '1'},
-			{picUrl: 'http://i4.bvimg.com/649796/c561466972bffefe.png', businessId: '2'},
-			{picUrl: 'http://i4.bvimg.com/649796/92583979b8f78553.png', businessId: '3'},
-			{picUrl: 'http://i4.bvimg.com/649796/25b01da2f746ea35.png', businessId: '3'},
-			{picUrl: 'http://i4.bvimg.com/649796/ab4099d65e0c9640.png', businessId: '3'}],
+			{picUrl: 'http://mczaiyun.top/ckb/101.png', businessId: '1'},
+			{picUrl: 'http://mczaiyun.top/ckb/102.png', businessId: '2'},
+			{picUrl: 'http://mczaiyun.top/ckb/103.png', businessId: '3'},
+			{picUrl: 'http://mczaiyun.top/ckb/104.png', businessId: '3'},
+			{picUrl: 'http://mczaiyun.top/ckb/105.png', businessId: '3'}],
 		newsArr: [
 			{title: '创客宝入驻商家突飞猛进', logo: 'http://i2.bvimg.com/649796/f8b21c027df0a0c8.png', id: '3'},
 			{title: '创客宝云铺商城新增蜂鸟订单专属平台红包', logo: 'http://i2.bvimg.com/649796/529498f8ac94a9ea.png', id: '1'},
@@ -19,11 +19,11 @@ Page({
 			{title: '创客宝回馈客户,随机立减百元大奖等你拿', logo: 'http://i2.bvimg.com/649796/c9e44468856d94b3.png', id: '5'},
 			{title: '祝所有女神节日快乐', logo: 'http://i2.bvimg.com/649796/6f027d1cb7f45548.png', id: '2'}],
 		picArr: [
-			'http://i4.bvimg.com/649796/a3e3c98e90626845.png',
-			'http://i2.bvimg.com/649796/68f24db09270379b.jpg',
-			'http://i2.bvimg.com/649796/f46575250feda4eb.jpg',
-			'http://i2.bvimg.com/649796/57e53cdedb44aa35.jpg',
-			'http://i2.bvimg.com/649796/12911053e53753b0.jpg']
+			'http://mczaiyun.top/ckb/106.png',
+			'http://mczaiyun.top/ckb/107.png',
+			'http://mczaiyun.top/ckb/108.png',
+			'http://mczaiyun.top/ckb/109.png'
+		]
 
 	},
 	onLoad: function () {
