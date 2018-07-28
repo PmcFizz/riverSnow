@@ -7,11 +7,11 @@
 				<text class="detail">{{companyName}}</text>
 			</view>
 			<view class="row">
-				<text class="label">联系人:</text>
+				<text class="label">客服:</text>
 				<text class="detail">{{userName}}</text>
 			</view>
 			<view class="row">
-				<text class="label">联系电话:</text>
+				<text class="label">财富热线:</text>
 				<text class="detail">{{phone}}</text>
 			</view>
 			<view class="row" style="margin-bottom: 10px">
