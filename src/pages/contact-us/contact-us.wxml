@@ -1,6 +1,6 @@
 <view class="app phone">
 	<view class="app__inner">
-		<image src="http://mczaiyun.top/ckb/120.png" class="company_img"></image>
+		<image src="../../image/tmh/10.png" class="company_img"></image>
 		<view class="company_info">
 			<view class="row">
 				<text class="label">公司名称:</text>

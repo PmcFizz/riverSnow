@@ -14,10 +14,10 @@ Page({
 			{picUrl: '../../image/tmh/13.png', businessId: '3'}],
 		newsArr: [],
 		picArr: [
-			'http://mczaiyun.top/ckb/106.png',
-			'http://mczaiyun.top/ckb/107.png',
-			'http://mczaiyun.top/ckb/108.png',
-			'http://mczaiyun.top/ckb/109.png'
+			'../../image/tmh/20.png',
+			'../../image/tmh/21.png',
+			'../../image/tmh/22.png',
+			'../../image/tmh/23.png'
 		]
 
 	},

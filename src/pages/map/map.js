@@ -2,20 +2,20 @@ var app = getApp()
 Page({
 	data: {
 		// 22.6090510000,113.8634490000
-		latitude: 22.609051,
-		longitude: 113.863449,
+		latitude: 22.545780,
+		longitude: 114.122380,
 		markers: [{
-			latitude: 22.609051,
-			longitude: 113.863449,
+			latitude: 22.545780,
+			longitude: 114.122380,
 			name: '创客宝'
 		}],
 		covers: [{
-			latitude: 23.099994,
-			longitude: 113.344520,
+			latitude: 22.545780,
+			longitude: 114.122380,
 			iconPath: '../../image/location.png'
 		}, {
-			latitude: 23.099994,
-			longitude: 113.304520,
+			latitude: 22.545780,
+			longitude: 114.122380,
 			iconPath: '../../image/location.png'
 		}]
 	}
