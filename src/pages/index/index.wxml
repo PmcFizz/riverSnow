@@ -47,7 +47,7 @@
 		<text class="panel-title">视频介绍</text>
 
 		<video class="myVideo"
-			   src="https://ckb.mobi/media/videos/website/ckb01.mp4"
+			   src="http://ugcydzd.qq.com/uwMRJfz-r5jAYaQXGdGnC2_ppdhgmrDlPaRvaV7F2Ic/h05104lilww.p712.1.mp4?sdtfrom=v1010&guid=625c23b1328d94c92102da0d02e6fca1&vkey=F7A25D76D7CA6CFEE5550DDAEE0C22DE3DF31A24C582514743F9D2AB625C8739FE3A49BC01E7502F4DF70059C8DF9886282D674ACFCDFB41D814B0F7A0B6426197156B7139AE25163868DB0A8D6EBB3C0EDE4E4D8173ABBFF51E105D8129C6A9B2B0E214C553FE7726F006F99693413722FF223BA356FAB2"
 			   danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
 		<text class="panel-title gsdt">公司动态</text>
 

@@ -9,7 +9,7 @@ App({
 			// 新闻
 			{
 				logo: 'http://mczaiyun.top/ckb/21.jpg',
-				title: '创客宝扫码支付介绍',
+				title: '天美汇餐饮管理有限公司旗下品牌天美汇休闲饮品隆重招商',
 				id: '6',
 				detailImgArr: ['http://mczaiyun.top/ckb/22.jpg',
 					'http://mczaiyun.top/ckb/23.jpg',
@@ -18,31 +18,31 @@ App({
 					'http://mczaiyun.top/ckb/26.jpg']
 			},
 			{
-				title: '创客宝入驻商家突飞猛进',
+				title: '深圳市天美汇餐饮管理有限公司怎么样？',
 				logo: 'http://mczaiyun.top/ckb/1.jpg',
 				id: '3',
 				detailImgArr: ['http://mczaiyun.top/ckb/2.jpg']
 			},
 			{
-				title: '创客宝云铺商城新增蜂鸟订单专属平台红包',
+				title: '深圳市天美汇餐饮管理有限公司联系方式',
 				logo: 'http://mczaiyun.top/ckb/3.jpg',
 				id: '1',
 				detailImgArr: ['http://mczaiyun.top/ckb/4.jpg']
 			},
 			{
-				title: '实体商家免费加入创客宝,轻松实现月入过万',
+				title: '深圳市天美汇餐饮管理有限公司黄页',
 				logo: 'http://mczaiyun.top/ckb/5.jpg',
 				id: '4',
 				detailImgArr: ['http://mczaiyun.top/ckb/6.jpg']
 			},
 			{
-				title: '创客宝回馈客户,随机立减百元大奖等你拿',
+				title: '深圳市天美汇餐饮管理有限公司官方网站',
 				logo: 'http://mczaiyun.top/ckb/7.jpg',
 				id: '5',
 				detailImgArr: ['http://mczaiyun.top/ckb/8.jpg']
 			},
 			{
-				title: '祝所有女神节日快乐',
+				title: '深圳市天美汇餐饮管理有限公司地址在哪里？',
 				logo: 'http://mczaiyun.top/ckb/9.jpg',
 				id: '2',
 				detailImgArr: ['http://mczaiyun.top/ckb/10.jpg']

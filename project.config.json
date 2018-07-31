@@ -10,5 +10,6 @@
 	},
 	"appid": "wx661760df7904a25a",
 	"projectname": "riverSnow",
+	"compileType": "miniprogram",
 	"condition": {}
 }

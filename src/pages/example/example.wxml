@@ -1,10 +1,10 @@
 <view class="company-news">
 	<text class="gsdt">成功案例</text>
 	<view>
-		<image class="example_img" src="../../image/tmh/4.jpg"></image>
-		<image class="example_img" src="../../image/tmh/8.jpg"></image>
-		<image class="example_img" src="../../image/tmh/6.jpg"></image>
-		<image class="example_img" src="../../image/tmh/7.jpg"></image>
+		<image class="example_img" src="http://mczaiyun.top/tmh/4.jpg"></image>
+		<image class="example_img" src="http://mczaiyun.top/tmh/8.jpg"></image>
+		<image class="example_img" src="http://mczaiyun.top/tmh/6.jpg"></image>
+		<image class="example_img" src="http://mczaiyun.top/tmh/7.jpg"></image>
 	</view>
 	<!--<view class="news-box" wx:for="{{exampleList}}" data-id="{{item.id}}" bindtap="goHref" wx:key="index">-->
 	<!--<image class="news_img" src="{{item.logo}}"></image>-->

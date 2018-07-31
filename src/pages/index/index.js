@@ -7,17 +7,17 @@ Page({
 		swiperCurrent: 0,
 		selectCurrent: 0,
 		banners: [
-			{picUrl: '../../image/tmh/10.png', businessId: '1'},
-			{picUrl: '../../image/tmh/9.png', businessId: '2'},
-			{picUrl: '../../image/tmh/11.png', businessId: '3'},
-			{picUrl: '../../image/tmh/12.png', businessId: '3'},
-			{picUrl: '../../image/tmh/13.png', businessId: '3'}],
+			{picUrl: 'http://mczaiyun.top/tmh/10.png', businessId: '1'},
+			{picUrl: 'http://mczaiyun.top/tmh/9.png', businessId: '2'},
+			{picUrl: 'http://mczaiyun.top/tmh/11.png', businessId: '3'},
+			{picUrl: 'http://mczaiyun.top/tmh/12.png', businessId: '3'},
+			{picUrl: 'http://mczaiyun.top/tmh/13.png', businessId: '3'}],
 		newsArr: [],
 		picArr: [
-			'../../image/tmh/20.png',
-			'../../image/tmh/21.png',
-			'../../image/tmh/22.png',
-			'../../image/tmh/23.png'
+			'http://mczaiyun.top/tmh/20.png',
+			'http://mczaiyun.top/tmh/21.png',
+			'http://mczaiyun.top/tmh/22.png',
+			'http://mczaiyun.top/tmh/23.png'
 		]
 
 	},
