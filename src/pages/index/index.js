@@ -14,6 +14,7 @@ Page({
 			{picUrl: 'http://mczaiyun.top/tmh/13.png', businessId: '3'}],
 		newsArr: [],
 		picArr: [
+			'http://mczaiyun.top/tmh/logo.jpg',
 			'http://mczaiyun.top/tmh/20.png',
 			'http://mczaiyun.top/tmh/21.png',
 			'http://mczaiyun.top/tmh/22.png',
