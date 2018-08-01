@@ -2,5 +2,8 @@
 	<view class="news__inner">
 		<text class="news__title">{{title}}</text>
 	</view>
+	<text>
+		{{content}}
+	</text>
 	<image wx:for="{{newsImg}}" wx:key="{{$index}}" class="news-image" src="{{item}}"></image>
 </view>

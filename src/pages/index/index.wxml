@@ -52,7 +52,7 @@
 		<text class="panel-title gsdt">公司动态</text>
 
 		<view class="news-box" wx:for="{{newsArr}}" wx:key="index" data-id="{{item.id}}" bindtap="goHref">
-			<image class="news_img" src="{{item.logo}}"></image>
+			<!--<image class="news_img" src="{{item.logo}}"></image>-->
 			<view class="news_wrap">
 				<text class="news_title">{{item.title}}</text>
 			</view>

@@ -1,13 +1,13 @@
 var app = getApp()
 Page({
 	data: {
-		newsImg: [],
+		content: '',
 		title: ''
 	},
 	onLoad: function (params) {
 		var item = app.getDetailById(params.id)
 		this.setData({
-			newsImg: item.detailImgArr,
+			content: item.content,
 			title: item.title
 		})
 	}
