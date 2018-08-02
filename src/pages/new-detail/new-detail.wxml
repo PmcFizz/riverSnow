@@ -12,17 +12,20 @@
 			<text class="red-color">天美汇鸡翅包饭</text>
 			<text>来源于台湾的特色小吃，其采用独特的手法将鸡翅去骨，再配上果蔬炒制的糯米，一同放在烤炉上烘烤，期间用“蘸、刷、撒、烤、翻”的独特烘烤技巧，使糯米饭与鸡翅的味道相互融入和吸收，飘香四溢，颠覆味蕾！
 			</text>
+			<image src="http://mczaiyun.top/tmh/20.png"></image>
 		</view>
 		<view class="good_item">
 			<text class="red-color">科尔沁羊肉串</text>
 			<text>
 				科尔沁羊肉串”来源于蒙古的科尔沁大草原——成吉思汗二弟哈布图哈撒尔管辖的游牧区之一。科尔沁草原上整体气候光照充足，积温有效性高，是最适合肉羊繁殖、生长的区域。因此在这种自然环境下的羊肉与常规羊肉相比，其肉质鲜嫩、口感醇厚、膻味小、天然健康美味，受到无数吃货的追捧。新鲜出炉的“科尔沁羊肉串”撒上粒粒白芝麻，一口咬下去羊肉的鲜嫩醇厚与芝麻香一起冲击着舌尖，油而不腻口感独特。
 			</text>
+			<image src="http://mczaiyun.top/tmh/22.png"></image>
 		</view>
 		<view class="good_item">
 			<text class="red-color">天美汇大鸡排</text>
 			<text>采用优质鸡的鸡胸肉，去皮后横剖成蝴蝶装的肉片，经过真空滚揉特殊工艺处理，封锁鸡肉原有的鲜味，丝丝嫩滑。鸡扒表层金黄色的脆皮是经过反复实验后得到的黄金比例的酥皮粉，成品酥脆适口，香而不腻，爆脆有嚼劲。
 			</text>
+			<image src="http://mczaiyun.top/tmh/23.png"></image>
 		</view>
 		<view class="good_item">
 			<text class="red-color">鸡蛋仔</text>
@@ -38,12 +41,14 @@
 			<text>台湾原茶与水果的碰撞
 				天美汇茶饮所选的茶叶全部来自台湾高山茶园，我们将台湾高山茶叶现煮现调，再配上新鲜水果，茶香与果香相互融合沁人心脾，飘香四溢，果味清爽，营养丰富。
 			</text>
+			<image src="../../image/product3_2.jpg"></image>
 		</view>
 		<view class="good_item">
 			<text class="red-color">经典奶茶</text>
 			<text>一口奶香，一口茶香
 				奶茶是奶与茶的交融，我们的茶底同样选用台湾高山茶，牛奶均选用上等鲜奶，香醇浓郁，丝丝润滑。
 			</text>
+			<image src="../../image/product3_3.jpg"></image>
 		</view>
 		<view class="good_item">
 			<text class="red-color">氧气饮品</text>

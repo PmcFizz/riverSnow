@@ -27,10 +27,18 @@
 		.news_wrap {
 			flex-shrink: 100;
 			margin-bottom: 37px;
-			.news_title {
-				font-size: 17px;
-			}
+			//.news_title :nth-child(1) {
+			//	font-size: 17px;
+			//	color: red;
+			//}
 		}
+		.company-news:nth-child(1) {
+			.news_title{
+				color: red;
+			}
+
+		}
+
 
 	}
 }
