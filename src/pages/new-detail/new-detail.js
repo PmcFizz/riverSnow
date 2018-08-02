@@ -1,13 +1,13 @@
 var app = getApp()
 Page({
 	data: {
-		content: '',
+		id: 1,
 		title: ''
 	},
 	onLoad: function (params) {
 		var item = app.getDetailById(params.id)
 		this.setData({
-			content: item.content,
+			id: item.id,
 			title: item.title
 		})
 	}

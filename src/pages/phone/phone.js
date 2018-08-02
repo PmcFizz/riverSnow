@@ -3,7 +3,7 @@ Page({
 	data: {
 		companyName: '深圳市天美汇餐饮管理有限公司',
 		userName: '',
-		phone: '400-0551-597',
+		phone: '0755-27931117',
 		email: ''
 	},
 	onLoad: function () {},

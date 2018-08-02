@@ -5,11 +5,10 @@
 		<image class="example_img" src="http://mczaiyun.top/tmh/8.jpg"></image>
 		<image class="example_img" src="http://mczaiyun.top/tmh/6.jpg"></image>
 		<image class="example_img" src="http://mczaiyun.top/tmh/7.jpg"></image>
+		<image class="example_img" src="http://mczaiyun.top/tmh/e1.jpg"></image>
+		<image class="example_img" src="http://mczaiyun.top/tmh/e2.jpg"></image>
+		<image class="example_img" src="http://mczaiyun.top/tmh/e3.jpg"></image>
+		<image class="example_img" src="http://mczaiyun.top/tmh/e4.jpg"></image>
+		<image class="example_img" src="http://mczaiyun.top/tmh/e5.jpg"></image>
 	</view>
-	<!--<view class="news-box" wx:for="{{exampleList}}" data-id="{{item.id}}" bindtap="goHref" wx:key="index">-->
-	<!--<image class="news_img" src="{{item.logo}}"></image>-->
-	<!--<view class="news_wrap">-->
-	<!--<text class="news_title">{{item.title}}</text>-->
-	<!--</view>-->
-	<!--</view>-->
 </view>
