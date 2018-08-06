@@ -16,7 +16,7 @@
 			</view>
 			<view class="row" style="margin-bottom: 10px">
 				<text class="label">手机/微信:</text>
-				<text class="detail">13926578824</text>
+				<text class="detail">13570806050</text>
 			</view>
 			<button type="primary" bindtap="call" size="primary">拨打电话</button>
 		</view>

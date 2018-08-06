@@ -4,7 +4,7 @@
 		<view class="company_info">
 			<view class="row">
 				<text class="label">公司名称:</text>
-				<text class="detail">深圳市天美汇餐饮管理有限公司</text>
+				<text class="detail">深圳天美汇鸡翅包饭管理有限公司</text>
 			</view>
 			<view class="row">
 				<text class="label">商圈位置:</text>
@@ -14,6 +14,11 @@
 				<text class="label">总部地址:</text>
 				<text class="detail">深圳市罗湖区东门中路华佳广场15楼1502-1503室</text>
 			</view>
+			<view class="row">
+				<text class="label">分公司地址:</text>
+				<text class="detail">深圳市宝安区前进二路智汇创新中心D栋3A02</text>
+			</view>
+
 			<view class="row">
 				<text class="label">附近地铁:</text>
 				<text class="detail">老街,晒布,湖贝</text>
