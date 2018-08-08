@@ -1,7 +1,7 @@
 var app = getApp()
 Page({
 	data: {
-		companyName: '深圳市天美汇鸡翅包饭管理有限公司',
+		companyName: '深圳天美汇鸡翅包饭管理有限公司',
 		userName: '汪小姐',
 		phone: '13570806050',
 		email:'wangbaohong789@126.com'

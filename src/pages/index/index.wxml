@@ -46,11 +46,7 @@
 		</view>
 		<text class="panel-title">视频介绍</text>
 
-		<!--<tx-video vid="h05104lilww"></tx-video>-->
-		<!--<embed src="https://imgcache.qq.com/tencentvideo_v1/playerv3/TPout.swf?max_age=86400&v=20161117&vid=h05104lilww&auto=0" allowFullScreen="true" quality="high" width="480" height="400" align="middle" allowScriptAccess="always" type="application/x-shockwave-flash"></embed>-->
-
-		<video class="myVideo"
-			   src="http://ugcbsy.qq.com/uwMRJfz-r5jAYaQXGdGnC2_ppdhgmrDlPaRvaV7F2Ic/h05104lilww.p712.1.mp4?sdtfrom=v1010&guid=625c23b1328d94c92102da0d02e6fca1&vkey=E205997CC4EFA7209EB0AA434B2C8C7752F6B18646A4AB1DB9B50BDA444D3F30124C2717C933991757E437C29563ABEF56150A00FC7E5ADDA8B16564965D67A07AFA765EE4502E465D7F96A9DCBF898E72DA3FD10D464BCD304BCD911479E8E8E9BE9261BAB3E4229E5785E4471D03741F85D9893C2409FF"
+		<video class="myVideo" src="http://115.159.52.223/jcbf.mp4"
 			   danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
 		<text class="panel-title gsdt">公司动态</text>
 
