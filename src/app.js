@@ -8,9 +8,18 @@ App({
 		newsList: [
 			// 新闻
 			{
+				title: '创客宝电子名片-创客宝智慧云铺',
+				logo: 'http://mczaiyun.top/ckb/301.png',
+				id: '4',
+				color:'red',
+				detailImgArr: ['http://mczaiyun.top/ckb/301.png','http://mczaiyun.top/ckb/302.png',
+					'http://mczaiyun.top/ckb/303.png','http://mczaiyun.top/ckb/304.png','http://mczaiyun.top/ckb/305.jpg']
+			},
+			{
 				logo: 'http://mczaiyun.top/ckb/21.jpg',
 				title: '创客宝扫码支付介绍',
 				id: '6',
+				color:'blue',
 				detailImgArr: ['http://mczaiyun.top/ckb/22.jpg',
 					'http://mczaiyun.top/ckb/23.jpg',
 					'http://mczaiyun.top/ckb/24.jpg',
@@ -21,30 +30,28 @@ App({
 				title: '创客宝入驻商家突飞猛进',
 				logo: 'http://mczaiyun.top/ckb/1.jpg',
 				id: '3',
+				color:'green',
 				detailImgArr: ['http://mczaiyun.top/ckb/2.jpg']
 			},
 			{
 				title: '创客宝云铺商城新增蜂鸟订单专属平台红包',
 				logo: 'http://mczaiyun.top/ckb/3.jpg',
 				id: '1',
+				color:'red',
 				detailImgArr: ['http://mczaiyun.top/ckb/4.jpg']
-			},
-			{
-				title: '实体商家免费加入创客宝,轻松实现月入过万',
-				logo: 'http://mczaiyun.top/ckb/5.jpg',
-				id: '4',
-				detailImgArr: ['http://mczaiyun.top/ckb/6.jpg']
 			},
 			{
 				title: '创客宝回馈客户,随机立减百元大奖等你拿',
 				logo: 'http://mczaiyun.top/ckb/7.jpg',
 				id: '5',
+				color:'blue',
 				detailImgArr: ['http://mczaiyun.top/ckb/8.jpg']
 			},
 			{
 				title: '祝所有女神节日快乐',
 				logo: 'http://mczaiyun.top/ckb/9.jpg',
 				id: '2',
+				color:'green',
 				detailImgArr: ['http://mczaiyun.top/ckb/10.jpg']
 			},
 		],
