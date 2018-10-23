@@ -129,6 +129,9 @@ Page({
       playLink: that.data.playLinkObj[palyType]
     })
     that.getAllChatHistory()
+    setInterval(function(){
+      that.getAllChatHistory()
+    },1000)
   },
   onHide: function () {
     // 页面隐藏
