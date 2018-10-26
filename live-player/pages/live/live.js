@@ -2,6 +2,7 @@ var app = getApp()
 Page({
   data: {
     height: '',
+    scrollTop:1000,
     showFullScreen:true,
     chatHistory: [], // 评论历史
     userInfo: {}, // 用户信息
@@ -250,7 +251,7 @@ Page({
     }
     // TODO 需要封装消息,当前人头像&名字&消息体
     var msgBody = that.data.userInfo.avatarUrl + '&&' + that.data.userInfo.nickName+'&&'+ that.data.content
-    var url = 'https://api_dms.aodianyun.com/v1/messages/' + that.data.dmsObj[app.globalData.palyType].topic
+    var url = 'https://api.dms.aodianyun.com/v1/messages/' + that.data.dmsObj[app.globalData.palyType].topic
     var s_key = 'dms ' + that.data.dmsObj[app.globalData.palyType].s_key
     console.log(url,s_key)
     wx.request({
@@ -269,13 +270,16 @@ Page({
              nickName: that.data.userInfo.nickName, 
              _id: +new Date(),
              msg: that.data.content }
-            ])
-          // todo 需要往下滑
+            ])        
           that.setData({
             chatHistory: that.data.chatHistory
           })
           that.setData({
             content: ''
+          })
+          // todo 需要往下滑
+          that.setData({
+            scrollTop: 1000
           })
         }
       },
@@ -290,7 +294,7 @@ Page({
   // 获取评论区历史记录
   getAllChatHistory: function () {
     var that =this
-    var url = 'https://api_dms.aodianyun.com/v1/historys/' + that.data.dmsObj[app.globalData.palyType].topic+'/0/100'
+    var url = 'https://api.dms.aodianyun.com/v1/historys/' + that.data.dmsObj[app.globalData.palyType].topic+'/0/100'
     var s_key = 'dms ' + that.data.dmsObj[app.globalData.palyType].s_key
     wx.request({
       url: url,      
@@ -309,6 +313,10 @@ Page({
           }
           that.setData({
             chatHistory:resArr
+          })
+          // todo 需要往下滑
+          that.setData({
+            scrollTop: 1000
           })
         }
       },

@@ -27,6 +27,7 @@ page{
 .player{
   position: relative;
   font-size:0;
+  height: 800rpx;
 }
 .player_box .player_btn{
   position: absolute;

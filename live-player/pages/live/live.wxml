@@ -2,18 +2,19 @@
 <!--评论盒子-->
 <view class='player_box'>
   <live-player id="player" class="player" src="{{playLink}}" object-fit="{{showFullScreen ? 'fillCrop' : 'contain'}}" mode="RTC" autoplay bindstatechange="statechange" binderror="error" />
-  <cover-view class='player_btn' wx:if="{{showFullScreen}}">
-    <!-- <cover-view class='btn_item'><cover-image src='../../assets/icons/zt_icon.png' class='btn'></cover-image></cover-view> -->
+  <!--进入全屏的代码-->
+  <!-- <cover-view class='player_btn' wx:if="{{showFullScreen}}">  
     <cover-view class='btn_item'>
       <cover-image bindtap="fullScreen" src='../../assets/icons/qp_icon.png' class='btn'></cover-image>
     </cover-view>
-  </cover-view>
+  </cover-view> -->
 
-  <cover-view class='player_btn bottom' wx:if="{{!showFullScreen}}">
+  <!--退出全屏的代码-->
+  <!-- <cover-view class='player_btn bottom' wx:if="{{!showFullScreen}}">
     <cover-view class='btn_item' >
       <cover-image bindtap="exitScreen" src='../../assets/img/suxiao.png' class='btn'></cover-image>
     </cover-view>
-  </cover-view>
+  </cover-view> -->
 
   <!-- <cover-view class='player_btn'>
     <cover-image src='../../assets/img/567.png'>1</cover-image>
@@ -22,7 +23,7 @@
 </view>
 
 <!--评论显示区-->
-<view class='conment-container' style='height:{{height}}'>
+<scroll-view class='conment-container' scroll-y style='height:{{height}}' scroll-top="{{scrollTop}}">
   <block wx:for="{{chatHistory}}" wx:key='{{item._id}}'>
     <view class="comment_item">
       <image src="{{item.avatarUrl}}"></image>
@@ -30,7 +31,7 @@
       <text>{{item.msg}}</text>
     </view>
   </block>    
-</view>
+</scroll-view>
  
 <!-- <view class="cf-bg" catchtap="cemojiCfBg" style="display:{{cfBg ? 'black' : 'flex'}}"></view> -->
 
