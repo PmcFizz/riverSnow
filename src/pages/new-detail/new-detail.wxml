@@ -1,6 +1,0 @@
-<view class="app news">
-	<view class="news__inner">
-		<text class="news__title">{{title}}</text>
-	</view>
-	<image wx:for="{{newsImg}}" wx:key="{{$index}}" class="news-image" src="{{item}}"></image>
-</view>

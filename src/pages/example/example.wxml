@@ -1,9 +1,0 @@
-<view class="company-news">
-	<text class="gsdt">成功案例</text>
-	<view class="news-box" wx:for="{{exampleList}}" data-id="{{item.id}}" bindtap="goHref" wx:key="index">
-		<image class="news_img" src="{{item.logo}}"></image>
-		<view class="news_wrap">
-			<text class="news_title">{{item.title}}</text>
-		</view>
-	</view>
-</view>
