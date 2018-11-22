@@ -25,16 +25,16 @@ if (typeof Fai == 'undefined'){
 	Fai = {};
 	Fai.top = window;
 }
-(function() { 
-var fs = document.createElement("script"); 
+(function() {
+var fs = document.createElement("script");
 fs.src = "//fe.faisys.com/jssdk_1_0/js/hawkEye.min.js?v=201809261929";
-window.FAI_HAWK_EYE = {}; 
-window.FAI_HAWK_EYE.jssdk_report_url = "//report.fkw.com/js/report"; 
-window.FAI_HAWK_EYE.jssdk_appid = 3004; 
-window.FAI_HAWK_EYE.fai_aid = 16424715; 
-window.FAI_HAWK_EYE.fai_bs_aid = 16424715; 
-window.FAI_HAWK_EYE.fai_bs_id = 0; 
-window.FAI_HAWK_EYE.fai_bs_wid = 0; 
+window.FAI_HAWK_EYE = {};
+window.FAI_HAWK_EYE.jssdk_report_url = "//report.fkw.com/js/report";
+window.FAI_HAWK_EYE.jssdk_appid = 3004;
+window.FAI_HAWK_EYE.fai_aid = 16424715;
+window.FAI_HAWK_EYE.fai_bs_aid = 16424715;
+window.FAI_HAWK_EYE.fai_bs_id = 0;
+window.FAI_HAWK_EYE.fai_bs_wid = 0;
 var s = document.getElementsByTagName("script")[0];
 s.parentNode.insertBefore(fs, s);
 })();
@@ -81,7 +81,7 @@ s.parentNode.insertBefore(fs, s);
 <script type="text/javascript" src="//1.ss.faisys.com/js/comm/jquery/jquery-mousewheel.min.js?v=201811011027"></script>
 <script type="text/javascript" src="//1.ss.faisys.com/js/comm/fai.min.js?v=201811011027"></script>
 <script type="text/javascript" src="//1.ss.faisys.com/js/comm/jquery/jquery-ui-core.min.js?v=201811211412"></script>
-<script type="text/javascript" src="//1.ss.faisys.com/js/site.min.js?v=201811211412"></script>
+<script type="text/javascript" src="site.min.js"></script>
 <script type="text/javascript" src="//1.ss.faisys.com/js/locale/2052.min.js?v=201811011027"></script>
 
 
@@ -159,22 +159,33 @@ s.parentNode.insertBefore(fs, s);
 					<div id="webNav" class="webNav">
 						<div id='navV2Wrap'><div id='navV2' class='nav navV2 navStyle navStyle3060'>
 <div class='navMainContent'><div class='navContent'>
+
 <div id='navCenterContent' class='navCenterContent'>
 <div id='navCenter' class='navCenter'>
 <div class='itemPrev'></div>
 <div class='itemContainer'>
 <div title='' id='nav2' class='item itemCol2 itemIndex1' colid='2' onclick='window.open("/", "_self")' _jump='window.open("/", "_self")'>
-<div class='itemCenter'><a hidefocus='true' style='outline:none;' class='' href='index.html' onclick="return false;"><span class='itemName0'>首页</span></a></div></div>
-<div class='itemSep'><span class='itemSepLine'></span></div><div title='' id='nav105' class='item itemCol105 itemIndex2' colid='105' onclick='window.open("/col.jsp?id=105", "_self")' _jump='window.open("/col.jsp?id=105", "_self")'>
-<div class='itemCenter'><a hidefocus='true' style='outline:none;' class='' href='col.html?id=105' onclick="return false;"><span class='itemName0'>产品中心</span></a></div></div>
-<div class='itemSep'><span class='itemSepLine'></span></div><div title='' id='nav102' class='item itemCol102 itemIndex3' colid='102' onclick='window.open("/col.jsp?id=102", "_self")' _jump='window.open("/col.jsp?id=102", "_self")'>
-<div class='itemCenter'><a hidefocus='true' style='outline:none;' class='' href='col-1.html?id=102' onclick="return false;"><span class='itemName0'>模拟生产</span></a></div></div>
-<div class='itemSep'><span class='itemSepLine'></span></div><div title='' id='nav104' class='item itemCol104 itemIndex4' colid='104' onclick='window.open("/col.jsp?id=104", "_self")' _jump='window.open("/col.jsp?id=104", "_self")'>
-<div class='itemCenter'><a hidefocus='true' style='outline:none;' class='' href='col-2.html?id=104' onclick="return false;"><span class='itemName0'>新闻资讯</span></a></div></div>
-<div class='itemSep'><span class='itemSepLine'></span></div><div title='' id='nav103' class='item itemCol103 itemIndex5' colid='103' onclick='window.open("/col.jsp?id=103", "_self")' _jump='window.open("/col.jsp?id=103", "_self")'>
-<div class='itemCenter'><a hidefocus='true' style='outline:none;' class='' href='col-3.html?id=103' onclick="return false;"><span class='itemName0'>关于我们</span></a></div></div>
-<div class='itemSep'><span class='itemSepLine'></span></div><div title='' id='nav106' class='item itemCol106 itemIndex6' colid='106' onclick='window.open("/col.jsp?id=106", "_self")' _jump='window.open("/col.jsp?id=106", "_self")'>
-<div class='itemCenter'><a hidefocus='true' style='outline:none;' class='' href='col-4.html?id=106' onclick="return false;"><span class='itemName0'>联系我们</span></a></div></div>
+<div class='itemCenter'><a hidefocus='true' style='outline:none;' class='' href='index.html' onclick="return false;"><span class='itemName0'>首页</span></a></div>
+</div>
+<div class='itemSep'><span class='itemSepLine'></span></div>
+	<div title='' id='nav105' class='item itemCol105 itemIndex2' colid='105' onclick='window.open("/col.html", "_self")' _jump='window.open("/col.html", "_self")'>
+<div class='itemCenter'><a hidefocus='true' style='outline:none;' class='' href='/col.html' onclick="return false;"><span class='itemName0'>产品中心</span></a></div>
+	</div>
+<div class='itemSep'><span class='itemSepLine'></span></div>
+	<div title='' id='nav102' class='item itemCol102 itemIndex3' colid='102' onclick='window.open("/col-1.html", "_self")' _jump='window.open("/col-1.html", "_self")'>
+<div class='itemCenter'><a hidefocus='true' style='outline:none;' class='' href='col-1.html' onclick="return false;"><span class='itemName0'>模拟生产</span></a></div>
+	</div>
+<div class='itemSep'><span class='itemSepLine'></span></div>
+	<div title='' id='nav104' class='item itemCol104 itemIndex4' colid='104' onclick='window.open("/col-2.html", "_self")' _jump='window.open("/col-2.html", "_self")'>
+<div class='itemCenter'><a hidefocus='true' style='outline:none;' class='' href='col-2.html' onclick="return false;"><span class='itemName0'>新闻资讯</span></a></div>
+	</div>
+
+<div class='itemSep'><span class='itemSepLine'></span></div>
+	<div title='' id='nav103' class='item itemCol103 itemIndex5' colid='103' onclick='window.open("/col-3.html", "_self")' _jump='window.open("/col-3.html", "_self")'>
+<div class='itemCenter'><a hidefocus='true' style='outline:none;' class='' href='col-3.html' onclick="return false;"><span class='itemName0'>关于我们</span></a></div>
+	</div>
+<div class='itemSep'><span class='itemSepLine'></span></div><div title='' id='nav106' class='item itemCol106 itemIndex6' colid='106' onclick='window.open("/col-4.html", "_self")' _jump='window.open("/col-4.html", "_self")'>
+<div class='itemCenter'><a hidefocus='true' style='outline:none;' class='' href='col-4.html' onclick="return false;"><span class='itemName0'>联系我们</span></a></div></div>
 </div>
 <div class='itemNext'></div>
 </div>
@@ -1400,11 +1411,11 @@ s.parentNode.insertBefore(fs, s);
 
 
 	var mainDomainId = 2;
-	var fk_sale = {};	
+	var fk_sale = {};
 	fk_sale._proSiteQueryStr = '';
 	fk_sale.cid = 16424715;
 	fk_sale.siteVer = 40;
-	fk_sale.popupWindowSiteVer = 10;	
+	fk_sale.popupWindowSiteVer = 10;
 	fk_sale.isLuckyGuyFlag = false;
 	fk_sale.popupWindowEndYear = 2018;
 	fk_sale.popupWindowEndMonth = 1;
@@ -1422,7 +1433,7 @@ s.parentNode.insertBefore(fs, s);
 		queryStr = '&' + fk_sale._proSiteQueryStr;
 	}
 
-	fk_sale.url = '//i.fkw.com/jump.jsp?t=40&siteVersion=0&buySiteVer=true&siteSid=0#appId=shop';	
+	fk_sale.url = '//i.fkw.com/jump.jsp?t=40&siteVersion=0&buySiteVer=true&siteSid=0#appId=shop';
 	fk_sale.showDomainWindowFlag = false;
 	fk_sale.cacct = 'huananjixie';
 	fk_sale.imgBigSrc = '//jz.faisys.com/image/pro/20170101/salesPromotion.png?v=201701101133';
@@ -1439,7 +1450,7 @@ s.parentNode.insertBefore(fs, s);
 	fk_sale.showSitePopWindow = false;
 	fk_sale.showDJPopWindow = false;
 	fk_sale.openFlyer = false;
-	
+
 	if(Fai.top._proSiteQueryStr === undefined){
 		Fai.top._proSiteQueryStr = '';//下面的js拿不到值，暂时在这里赋值 by jser
 	}
@@ -1465,7 +1476,7 @@ var _Global = {},
 	_debug = false,
 	_isPre = false,
 	_newsGuideJumpToTemplateUrl = 'sf16590494.jz.fkw.com',
-	// 满足新手指引的标志位 
+	// 满足新手指引的标志位
 	_showNewUsersGuide = false,
 	_newsGuideClickHelp = false,
 	_newsGuideTitle = false,
@@ -1476,7 +1487,7 @@ var _Global = {},
 	_devMode = false,
 	_guideNewUserStep = -1,
 	_inGuideNewUser = false,
-	_colOtherStyleData = {"independentList":[],"hh":false,"fh":false,"y":0,"h":0,"layout4Width":0,"layout5Width":0},						// 当前页面的数据    
+	_colOtherStyleData = {"independentList":[],"hh":false,"fh":false,"y":0,"h":0,"layout4Width":0,"layout5Width":0},						// 当前页面的数据
 	_templateOtherStyleData = {"h":601,"independentList":[],"hh":false,"fh":false,"y":0,"layout4Width":0,"layout5Width":0},			// 全局的数据
 	_allowedHtmlUrl = false,
 	_openHtmlUrl = false,
@@ -1493,24 +1504,24 @@ var _Global = {},
 	// debug: 本地和独立环境
 
 
-	
+
 	var _homeHost = "www.fkw.com";
 
 
-var _templateDefLayout = {BANNER_NAV:0,NAV_FLOAT:1,LEFT_NAV_BANNER_RIGHT_HIDE:3,LEFT_NAV_CENTER_BANNER_RIGHT_HIDE:4,LEFT_BANNER_NAV_RIGHT_HIDE:5,LEFT_NAV_EXPEND_CENTER_BANNER:6,CENTER_TOP_BANNER_RIGHT_HIDE:7,LEFT_HIDE_CENTER_TOP_BANNER:8,NAV_FLOAT_ON_BANNER:9,NAV_BANNER:10}; 
+var _templateDefLayout = {BANNER_NAV:0,NAV_FLOAT:1,LEFT_NAV_BANNER_RIGHT_HIDE:3,LEFT_NAV_CENTER_BANNER_RIGHT_HIDE:4,LEFT_BANNER_NAV_RIGHT_HIDE:5,LEFT_NAV_EXPEND_CENTER_BANNER:6,CENTER_TOP_BANNER_RIGHT_HIDE:7,LEFT_HIDE_CENTER_TOP_BANNER:8,NAV_FLOAT_ON_BANNER:9,NAV_BANNER:10};
 
 $(function() {
-	
+
 		Site.ajaxLoadModuleDom(2, 0, {"_ajaxLoadModuleList":[],"_partDomInfoList":[],"fullUrl":"http://www.southchinamachine.com/"});
-	
+
 	Site.showOrHideMailBox();
-		
 
-	//topBarMember 
-	
-	
 
-	
+	//topBarMember
+
+
+
+
 
 	Site.loadLastLoginAcct('huananjixie');
 
@@ -1551,12 +1562,12 @@ $(function() {
 
 	Site.initTemplateLayout(_templateDefLayout.NAV_FLOAT, true, true );
 	// spider统计
-	
 
 
 
-	
-	
+
+
+
 	// ajax统计
 	Site.total({colId:2, pdId:-1, ndId:-1, sc:0, rf:"", statId:statId});
 	//保留旧用户的初始化版式区域4 和区域5 中，区域4的padding-right空间
@@ -1720,49 +1731,49 @@ Site.initContentSplitLine(662, {"y":0,"s":0,"w":1});
 
 	//收集浏览器信息，统计dog
 	Site.sendBrowerInfo(false);
-	
-	
+
+
 
 	//如果有首页弹窗的话，需要先打开首页弹窗
-	
+
 
 	Site.initPage();	// 这个要放在最后，因为模块组初始化时会把一些模块隐藏，导致没有高度，所以要放最后执行
-	
-	
 
-	
-	
+
+
+
+
 	setTimeout(afterModuleLoaded, 0);
 
-	
 
-	
-	
+
+
+
 			Site.loadCss("//2.ss.faisys.com/css/bannerAnimation.min.css?v=201811011027");
-	
+
 
 	Site.triggerGobalEvent("siteReadyLoad");
-	
-	
-	
-	
+
+
+
+
 
 });
 
 function afterModuleLoaded() {
-	
+
 	Site.initPage2();
 Site.initBackToTopTool(false,false,false,'回到顶部','null');
-	
 
-	
-	
-	
-	
-	
-	
 
-	
+
+
+
+
+
+
+
+
 } // afterModuleLoaded end
 
 var _lcid = 2052,
@@ -1780,7 +1791,7 @@ var _jzProUrl = '';
 var _flyerManageDomain = '';
 var _siteAdmDomain = '',
 	_jzHomeUrl = '';
-	
+
 //多网站聚合页地址
 Fai.top._jzAllSiteDomain = _oem ? 'i.vip.webportal.top' : 'i.jz.fkw.com';
 
@@ -1794,7 +1805,7 @@ _Global._webRightBar = false;
 var _isMemberLogin = false;// 会员是否登陆了
 var _noCover = 0; 			// 隐藏弹窗遮罩层
 _Global._footerHidden = false;	// 底部是否隐藏 原因：需要判断有些底部js方法是否运行 true:隐藏；false: 显示
-_Global._footerHiddenAllowed = true;	
+_Global._footerHiddenAllowed = true;
 
 
 
@@ -1839,11 +1850,11 @@ var _couponOpen = false
 var toolBoxShowView = false;
 var toolBoxShowSet = false;
 var toolBoxShowABTool = false;
-var _wideBanner = true;		
+var _wideBanner = true;
 
 var _navStyleData = {"ncp":{"y":1,"l":437,"t":-1,"r":-1,"b":-1,"hl":-1,"ht":-1},"v":0,"no":true,"s":0,"ns":{"w":-1,"h":-1},"cs":{"w":-1,"h":-1},"gt":{"y":0},"ht":{"y":0},"np":{},"nb":{"y":0},"cb":{"y":0},"cp":{"y":0,"t":-1,"l":-1},"nis":{"w":-1,"h":-1},"nib":{"y":0},"nihb":{"y":0},"niss":{"w":-1,"h":-1},"nisb":{"y":0},"nsigt":{"y":0},"nsiht":{"y":0},"nsis":{"w":-1,"h":-1},"nsib":{"y":0},"nsihb":{"y":0},"nsiho":0,"nmove":0,"nsmt":{},"nsmb":{},"nrs":{"n":{"t":0},"c":{"t":0},"i":{"t":0},"smt":{"t":0},"smb":{"t":0},"si":{"t":0},"is":{"t":0},"sis":{"t":0},"tmt":{"t":0},"tmb":{"t":0},"ti":{"t":0},"tis":{"t":0}},"nsw":{"n":{"t":0},"c":{"t":0},"i":{"t":0},"sm":{"t":0},"si":{"t":0},"is":{"t":0},"sis":{"t":0}},"nbr":{"n":{"t":0},"i":{"t":0},"sm":{"t":0},"si":{"t":0},"is":{"t":0},"sis":{"t":0},"tm":{"t":0},"ti":{"t":0},"tis":{"t":0}},"ntf":{},"ntmt":{},"ntmb":{},"onft":false};				      // 栏目导航样式
 var _navStyleV2Data = {"no":true,"s":3060,"snt":0,"onft":true,"nmove":1,"oinc":false,"nhi":true,"ns":{"y":1,"w":-1,"h":49},"np":{"y":1,"t":169,"l":0},"nct":{"y":0,"cw":601},"nal":{"y":0},"nifc":{"y":1,"ic":"rgb(105,2,2)","sc":"rgba(214,4,4,0.3118489583333333)"},"nif":{"y":0},"nis":{"y":1,"w":80,"h":49},"nisp":{"y":0},"nir":{"y":0},"nib":{"y":0,"t":true,"b":true,"l":true,"r":true},"snfc":{"y":0},"snf":{"y":0},"snr":{"y":0},"snb":{"y":0,"t":true,"b":true,"l":true,"r":true},"ncb":true,"nbg":{"f":"","p":"","y":0},"nst":0,"nmw":1200};				  // 栏目导航2.0样式
-var _useNavVersionTwo = true;					  // 使用导航2.0	
+var _useNavVersionTwo = true;					  // 使用导航2.0
 var _memberTopBar = false;                           // 开启顶部会员条
 var _memberTopBar_versionTwo = false;     // 使用顶部会员条2.0
 _Global._navHidden =false;                                  //true:隐藏；flase：显示
@@ -1898,11 +1909,11 @@ _Global._useTemplateBackground = true;		// 是否使用模版
 
 var _newUserGuide = false; 		//是否需要新手指引，false代表不需要
 if( false ){			//本地环境，到时候测试完可以去掉
-	if(_aid > 9855603 && !true){ 	
-		_newUserGuide = true; 					
+	if(_aid > 9855603 && !true){
+		_newUserGuide = true;
 	}
 }else{
-	if(_aid > 15971536 && !true){ 	// undefined and false	
+	if(_aid > 15971536 && !true){ 	// undefined and false
 		_newUserGuide = true; 					//传到全局，当前
 	}
 }
@@ -1921,32 +1932,32 @@ _Global._siteAdvancedSetting = true;
 <script type="text/javascript">
 
 var fk_old_onload = window.onload;
-$(window).load(function(){	
-	
-	
-	
-	
-		Site.cacheModuleFunc.runSiteInit();
-	
+$(window).load(function(){
 
-	
+
+
+
+		Site.cacheModuleFunc.runSiteInit();
+
+
+
 
 		if(typeof fk_old_onload == "function"){
 			fk_old_onload.apply(this, arguments);
 		}
 
-		
+
 		Site.pageOnload();
-		
-		
-		
-	
-	
-	
+
+
+
+
+
+
 	//样板网站要自动把标识是不是使用导航2.0的位设为true　旧样板有部分要保留旧导航
-	
-	
-	
+
+
+
 
 });
 
@@ -1961,13 +1972,13 @@ $(window).load(function(){
 		if( sLine < 1 || typeof sMsg != 'string' || sMsg.length < 1 ){
 			return;
 		}
-		
+
 		var log = "Error:" + sMsg + ";Line:" + sLine + ";Url:" + sUrl;
 		var alertLog = "Error:"+sMsg+"\n" + "Line:" + sLine + "\n" + "Url:" + sUrl + "\n";
 		var encodeUrl = function (url){
 			return typeof url === "undefined" ? "" : encodeURIComponent(url);
 		};
-		
+
 		var ajax = true;
 		var obj = { 'm' : sMsg, 'u' : sUrl, 'l' : sLine };
 		for( var i = 0; i < _jsErrCahche.length; i ++ ){
@@ -1976,7 +1987,7 @@ $(window).load(function(){
 				break;
 			}
 		}
-		
+
 		if( ajax ){
 			_jsErrCahche.push( obj );
 			_faiAjax.ajax({
@@ -2016,7 +2027,7 @@ $(window).load(function(){
 //日历控件新样式，by jser 2017-10-7
 Site.loadCss("//2.ss.faisys.com/css/datepicker.min.css?v=201811211412");
 
-	
+
 
 	$LAB.script("//1.ss.faisys.com/js/bookingSubmitPanel.min.js?v=201811011027");
 	$LAB.script("//1.ss.faisys.com/js/photoSlide.min.js?v=201811011027");
@@ -2027,51 +2038,51 @@ Site.loadCss("//2.ss.faisys.com/css/datepicker.min.css?v=201811211412");
 				"base":Site
 			});
 		});
-		
+
 
 	$LAB.script("//1.ss.faisys.com/js/faiFloatPanel.min.js?v=201811011027")
 		.script("//1.ss.faisys.com/js/faiFloatPanel_bindEvent.min.js?v=201811011027")
-		
+
 		.wait(function(){
 			Site.loadCss("//2.ss.faisys.com/css/faiFloatPanel.min.css?v=201811011027", function(){
 
-				
-					
+
+
 			});
 		});
 
-	
+
 
 
 		$LAB.script("//1.ss.faisys.com/js/moduleAnimation.min.js?v=201811011027")
 			.wait(function(){
-				
+
 				jzUtils.trigger({
 					"name": "moduleAnimation.subscribe",
 					"base":Site
 				});
-				
-				
+
+
 				jzUtils.run({
 					"name": "moduleAnimation.scroll",
 					"base":Site
 				});
-				
-				
+
+
 				jzUtils.run({
 					"name": "moduleAnimation.publish",
 					"base":Site
 				});
 
-				
-				
-			});		
 
 
-	
-	
-	
-	
+			});
+
+
+
+
+
+
 
 </script>
 
