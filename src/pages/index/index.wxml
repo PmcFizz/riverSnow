@@ -1,0 +1,67 @@
+<view class="app index">
+	<view class="app__inner">
+
+		<view class="swiper-container">
+			<swiper class="swiper_box"
+					autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" bindchange="swiperchange">
+				<block wx:for="{{banners}}" wx:key="id">
+					<swiper-item>
+						<image bindtap="tapBanner" data-id="{{item.businessId}}" src="{{item.picUrl}}"
+							   class="slide-image" width="750rpx" height="562.5rpx"/>
+					</swiper-item>
+				</block>
+			</swiper>
+			<view class="dots">
+				<block wx:for="{{banners}}" wx:key="unique">
+					<view class="dot{{index == swiperCurrent ? ' active' : ''}}"></view>
+				</block>
+			</view>
+		</view>
+
+		<view class="menu-ul">
+			<view class="menu-item">
+				<navigator url="/pages/company-news/company-news" hover-class="navigator-hover">
+					<image src="../../image/ckb/gsdt.png"></image>
+					<text>公司动态</text>
+				</navigator>
+			</view>
+			<view class="menu-item">
+				<navigator url="/pages/example/example" hover-class="navigator-hover">
+					<image src="../../image/ckb/cgal.png"></image>
+					<text>成功案例</text>
+				</navigator>
+			</view>
+			<view class="menu-item">
+				<navigator url="/pages/contact-us/contact-us" hover-class="navigator-hover">
+					<image src="../../image/ckb/lxwm.png"></image>
+					<text>联系我们</text>
+				</navigator>
+			</view>
+			<view class="menu-item">
+				<navigator url="/pages/about-us/about-us" hover-class="navigator-hover">
+					<image src="../../image/ckb/gywm.png"></image>
+					<text>关于我们</text>
+				</navigator>
+			</view>
+		</view>
+		<text class="panel-title">视频介绍</text>
+
+		<video class="myVideo"
+			   src="https://ckb.mobi/media/videos/website/ckb01.mp4"
+			   danmu-list="{{danmuList}}" enable-danmu danmu-btn controls></video>
+		<text class="panel-title gsdt">公司动态</text>
+
+		<view class="news-box" wx:for="{{newsArr}}" wx:key="index" data-id="{{item.id}}" bindtap="goHref">
+			<image class="news_img" src="{{item.logo}}"></image>
+			<view class="news_wrap">
+				<text class="news_title" style="color:{{item.color}}">{{item.title}}</text>
+			</view>
+		</view>
+
+		<text class="panel-title gsdt">图片介绍</text>
+		<scroll-view class="scroll-view_H" scroll-x="true" style="width: 100%">
+			<image style="margin-left: 5px" wx:for="{{picArr}}" wx:key="index" class="scroll-view-item_H demo-text-1" src="{{item}}"></image>
+		</scroll-view>
+
+	</view>
+</view>
