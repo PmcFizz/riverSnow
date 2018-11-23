@@ -1,0 +1,56 @@
+<view class='live-detail'>
+<!--评论盒子-->
+<view class='player_box'>
+  <live-player id="player" class="player" src="{{playLink}}" object-fit="{{showFullScreen ? 'fillCrop' : 'contain'}}" mode="RTC" autoplay bindstatechange="statechange" binderror="error" />
+  <!--进入全屏的代码-->
+  <!-- <cover-view class='player_btn' wx:if="{{showFullScreen}}">  
+    <cover-view class='btn_item'>
+      <cover-image bindtap="fullScreen" src='../../assets/icons/qp_icon.png' class='btn'></cover-image>
+    </cover-view>
+  </cover-view> -->
+
+  <!--退出全屏的代码-->
+  <!-- <cover-view class='player_btn bottom' wx:if="{{!showFullScreen}}">
+    <cover-view class='btn_item' >
+      <cover-image bindtap="exitScreen" src='../../assets/img/suxiao.png' class='btn'></cover-image>
+    </cover-view>
+  </cover-view> -->
+
+  <!-- <cover-view class='player_btn'>
+    <cover-image src='../../assets/img/567.png'>1</cover-image>
+    <cover-image src='../../assets/img/234.png' bindtap="fullScreen">1</cover-image>
+  </cover-view> -->
+</view>
+
+<!--评论显示区-->
+<scroll-view class='conment-container' scroll-y style='height:{{height}}' scroll-top="{{scrollTop}}">
+  <block wx:for="{{chatHistory}}" wx:key='{{item._id}}'>
+    <view class="comment_item">
+      <image src="{{item.avatarUrl}}"></image>
+      <view class="username">{{item.nickName}}</view>：
+      <text>{{item.msg}}</text>
+    </view>
+  </block>    
+</scroll-view>
+ 
+<!-- <view class="cf-bg" catchtap="cemojiCfBg" style="display:{{cfBg ? 'black' : 'flex'}}"></view> -->
+
+<view class="comment-fixed  {{isShow ? 'showemoji' : ''}}"  wx:if="{{showFullScreen}}">
+  <view class="cf-box">
+    <view class="emoji iconfont icon-emoji" catchtap="emojiShowHide"></view>
+    <textarea class="cf-content" fixed bindfocus="textAreaFocus" bindconfirm="bindconfirm" maxlength="200" bindinput="textAreaBlur" value="{{content}}" placeholder="发表言论，请文明用语~" />
+    <view class="share_icon" bindtap="send">发送</view>
+  </view>
+
+  <!--emoji表情盒子-->
+  <view class="emoji-box {{isShow ? 'emoji-move-in' : 'emoji-move-out'}} {{isLoad ? 'no-emoji-move' : ''}}">
+    <scroll-view scroll-y="true" bindscroll="emojiScroll" style="height:200px">
+      <block wx:for="{{emojis}}" wx:for-item="e" wx:key="">
+        <view class="emoji-cell">
+          <image class="touch-active" catchtap="emojiChoose" src="http://soupu.oss-cn-shanghai.aliyuncs.com/emoji/{{e.emoji}}.png" data-emoji="{{e.char}}" data-oxf="{{e.emoji}}"></image>
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+</view>
+</view>
